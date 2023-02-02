@@ -2254,6 +2254,9 @@ border-radius: 11.6468px;
     
 }
 @media screen and (max-width:1092px){
+     .chat-items{
+        height: 66vh;
+    }
     .modal-rps-game-res{
         width: 70px;
         padding: 28px 14px;
