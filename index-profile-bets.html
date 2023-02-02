@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <title>BlocksLuck</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content flex">
+                <img src="assets/img/logo1.svg" alt="logo" class="header__logo">
+                <div class="header__info flex">
+                    <div class="header__info-buttons flex">
+                        <a href="#modalQ"  class="header-info-button openbtn-q flex">
+                            <svg width="35" height="40" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.0752 3.51807C11.4257 3.51807 3.5752 11.1816 3.5752 20.6014C3.5752 30.0211 11.4257 37.6847 21.0752 37.6847C30.7247 37.6847 38.5752 30.0211 38.5752 20.6014C38.5752 11.1816 30.7247 3.51807 21.0752 3.51807ZM22.8252 29.1431H19.3252V18.8931H22.8252V29.1431ZM22.8252 15.4764H19.3252V12.0597H22.8252V15.4764Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="#modalLB" class="header-info-button flex openbtn-lb">
+                            <svg width="35" height="40" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_262)">
+                                <path d="M32.3475 0.101562H8.79464V3.86533H0.748535V10.0463C0.748535 14.4875 4.36175 18.1007 8.803 18.1007H9.84849C11.3707 21.4547 14.4068 23.9722 18.0953 24.7584V29.8103H15.2098C14.3232 29.8103 13.5955 30.5296 13.5955 31.4245V33.5406H11.1198V41.1016H30.0223V33.5406H27.5549V31.4245C27.5549 30.5379 26.8356 29.8103 25.9407 29.8103H23.0551V24.7584C26.7436 23.9639 29.7797 21.4547 31.302 18.1007H32.3475C36.7887 18.1007 40.4019 14.4875 40.4019 10.0463V3.86533H32.3475V0.101562ZM8.79464 14.0275C6.60329 14.0275 4.82177 12.246 4.82177 10.0546V7.94693H8.79464V13.258C8.79464 13.5173 8.803 13.7766 8.81973 14.0275H8.79464ZM23.8414 33.9253V37.9734H17.3008V33.9253H23.8414ZM19.7681 9.94591C19.9605 10.1717 20.3285 10.4059 20.8638 10.6401C22.11 11.167 23.0217 11.694 23.6072 12.2125C24.1926 12.7395 24.4854 13.4839 24.4854 14.4541C24.4854 15.3825 24.1926 16.1185 23.5988 16.6872C23.097 17.164 22.4529 17.4735 21.6584 17.624V18.9706C21.6584 19.1462 21.5162 19.2884 21.3322 19.2884H20.1612C19.9856 19.2884 19.835 19.1462 19.835 18.9706V17.6658C18.8397 17.5487 18.0117 17.1974 17.3509 16.6036C16.7404 16.0516 16.4058 15.2737 16.3556 14.2617C16.3473 14.0526 16.5229 13.8853 16.732 13.877L18.6641 13.8435C18.6641 13.8435 18.6641 13.8435 18.6724 13.8435C18.8648 13.8435 19.0321 13.9857 19.0488 14.1697C19.0906 14.6548 19.2328 15.0228 19.467 15.257C19.7598 15.5497 20.1361 15.6919 20.5961 15.6919C20.9809 15.6919 21.2736 15.5832 21.4744 15.3574C21.6751 15.1315 21.7755 14.8388 21.7755 14.4792C21.7755 14.061 21.6751 13.7348 21.466 13.5006C21.2653 13.2664 20.8972 13.0406 20.3787 12.8231C19.1074 12.3213 18.1873 11.8194 17.6102 11.3092C17.0331 10.799 16.7404 10.0463 16.7404 9.05097C16.7404 8.15603 17.0498 7.41164 17.6604 6.83453C18.2124 6.3076 18.9401 5.98141 19.835 5.85595V4.44244C19.835 4.2668 19.9772 4.12461 20.1612 4.12461H21.3322C21.5078 4.12461 21.6584 4.2668 21.6584 4.44244V5.88104C22.4948 6.04832 23.1722 6.4247 23.6824 7.01017C24.1759 7.57055 24.4436 8.27312 24.4937 9.10952C24.5105 9.31862 24.3265 9.49426 24.1174 9.49426L22.1853 9.51935H22.1769C21.9846 9.51935 21.8173 9.38553 21.8006 9.19316C21.7671 8.77496 21.6584 8.45713 21.4744 8.23131C21.2485 7.94693 20.9474 7.80474 20.5711 7.80474C20.1863 7.80474 19.9103 7.92184 19.7263 8.15603C19.5423 8.39022 19.4503 8.69132 19.4503 9.05097C19.4754 9.41898 19.5674 9.72009 19.7681 9.94591ZM36.3203 7.94693V10.0546C36.3203 12.246 34.5388 14.0275 32.3475 14.0275H32.3224C32.3391 13.7766 32.3475 13.5173 32.3475 13.258V7.94693H36.3203Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_262">
+                                <rect width="41" height="41" fill="white" transform="translate(0.0751953 0.101562)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </a>
+                    </div>
+                    <a href="index-profile-bets.html" class="header__info-profile flex">
+                        <div class="header__info-profile-name">NICKNAME</div>
+                        <div class="header__info-profile-icon"><img src="assets/img/ava.svg" alt="profile-img"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-content flex">
+                <aside id="openmodalIn" class="inventory modal-in">
+                    
+                    <h2>Inventory</h2>
+                    <div class="inventory__container ">
+                        <div class="closebtn-in" href="">&times;</div>
+                        <div class="inventory__content ">
+                            
+                        <div class="inventory-buttons flex">
+                            <div id="choose-all" class="inventory-button">Choose All</div>
+                            <div class="dropdown-container">
+                                <div class="dropdown-toggle click-dropdown">
+                                    Murder mystery 2 <svg class="dropdown-path" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.724 0.390625L7.99996 6.11463L2.27596 0.390625L0.390625 2.27596L7.99996 9.88529L15.6093 2.27596L13.724 0.390625Z" fill="white"/>
+                                        </svg>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="/">item</a></li>
+                                        <li><a href="/">item</a></li>
+                                        <li><a href="/">item</a></li>
+                                        <li><a href="/">item</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inventory__items flex">
+                            <div id="itm" class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-item">
+                                <div class="inventory-item-wrapper">                           
+                                    <img src="assets/img/item.svg" alt="item">
+                                    <div class="inventory-item-subtitle">LogChamper</div>
+                                    <div class="inventory-item-title">
+                                        <p>$1, 056$</p>
+                                        <p>R$480K</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inventory-info">
+                        <div class="inventory-info__buttons flex">
+                            <div class="inventory-info__button withdraw-btn flex">
+                                <div class="withdraw-blur"></div>
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.3333 28C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V6.66667C28 5.95942 27.719 5.28115 27.219 4.78105C26.7189 4.28095 26.0406 4 25.3333 4H6.66667C5.95942 4 5.28115 4.28095 4.78105 4.78105C4.28095 5.28115 4 5.95942 4 6.66667V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28H25.3333ZM14.6667 16V9.33333H17.3333V16H22.6667L16 22.6667L9.33333 16H14.6667Z" fill="black"/>
+                                    </svg> Withdraw
+                            </div>
+                            <a href="#modalIF" class="inventory-info__button deposit-btn flex openbtn-if">Deposit <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66667 28H25.3333C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V6.66667C28 5.95942 27.719 5.28115 27.219 4.78105C26.7189 4.28095 26.0406 4 25.3333 4H6.66667C5.95942 4 5.28115 4.28095 4.78105 4.78105C4.28095 5.28115 4 5.95942 4 6.66667V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28ZM16 9.33333L22.6667 16H17.3333V22.6667H14.6667V16H9.33333L16 9.33333Z" fill="white"/>
+                                </svg> </a>
+                        </div>
+                        <div class="inventory-info-bot">
+                            <div class="inventory-info-bot-container">
+                                <div class="inventory-info-bot-closebtn">&times;</div>
+                                <div class="inventory-info-bot-message flex"><img src="assets/img/bxs-info-circle 2.svg" alt="i">Make sure to recheck the bot’s nickname</div>
+                                <h2>Bot <span>MM2QAA777</span></h2>
+                                <div class="inventory-info-bot-btns flex">
+                                    <a href="/">Join the game</a>
+                                    <p>10:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="iventory-info__messages">
+                            <div class="iventory-info__message flex">
+                                <div class="iventory-info__message-text">2 Giveaways <span>avaliable</span></div>
+                                 <svg width="48" height="62" viewBox="0 0 48 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 24H8V40C8 41.0609 8.42143 42.0783 9.17157 42.8284C9.92172 43.5786 10.9391 44 12 44H22V24H10ZM36 24H26V44H36C37.0609 44 38.0783 43.5786 38.8284 42.8284C39.5786 42.0783 40 41.0609 40 40V24H36ZM37.582 14C37.8753 13.0276 38.0163 12.0156 38 11C38 7.14 34.86 4 31 4C27.756 4 25.59 6.964 24.192 10.17C22.814 7.14 20.538 4 17 4C13.14 4 10 7.14 10 11C10 12.192 10.158 13.178 10.418 14H4V22H22V18H26V22H44V14H37.582ZM14 11C14 9.346 15.346 8 17 8C18.776 8 20.428 11.05 21.396 14H16C15.252 14 14 14 14 11ZM31 8C32.654 8 34 9.346 34 11C34 14 32.748 14 32 14H27.046C28.066 10.848 29.548 8 31 8Z" fill="#1AE9B7"/>
+                                    <path d="M38 68H40V52C40 50.9391 39.5786 49.9217 38.8284 49.1716C38.0783 48.4214 37.0609 48 36 48H26L26 68H38ZM12 68H22L22 48H12C10.9391 48 9.92172 48.4214 9.17157 49.1716C8.42143 49.9217 8 50.9391 8 52V68H12ZM10.418 78C10.1247 78.9724 9.98367 79.9844 10 81C10 84.86 13.14 88 17 88C20.244 88 22.41 85.036 23.808 81.83C25.186 84.86 27.462 88 31 88C34.86 88 38 84.86 38 81C38 79.808 37.842 78.822 37.582 78H44V70H26V74H22V70H4V78H10.418ZM34 81C34 82.654 32.654 84 31 84C29.224 84 27.572 80.95 26.604 78H32C32.748 78 34 78 34 81ZM17 84C15.346 84 14 82.654 14 81C14 78 15.252 78 16 78H20.954C19.934 81.152 18.452 84 17 84Z" fill="url(#paint0_linear_2_22752)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_2_22752" x1="-67.5" y1="317" x2="26" y2="40.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1AE9B7"/>
+                                    <stop offset="1" stop-color="#1AE9B7" stop-opacity="0"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                            </div>
+                        </div>
+                    </div></div>
+                    
+                </aside>
+                <div class="main-center">
+                    <nav class="menu">
+                        <ul class="menu-list flex">
+                            <li><a href="#openmodalIn" class="openbtn-in"><img src="assets/img/bxs-down-arrow-square.svg" alt="send"><p>Inventory</p> </a></li>
+                            <li class="menu-item menu-item-gr cn-fl"><a  href="index-login.html"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                </g>
+                                <g clip-path="url(#clip1_1_72)">
+                                <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                </g>
+                                <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                </filter>
+                                <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                </filter>
+                                <clipPath id="clip0_1_72">
+                                <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                </clipPath>
+                                <clipPath id="clip1_1_72">
+                                <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                </clipPath>
+                                <clipPath id="clip2_1_72">
+                                <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                </clipPath>
+                                </defs>
+                                </svg> <p> Coinflip</p></a></li>
+                            <li class="menu-item menu-item-gr jp"><a class="menu-item-link" href="index-jackpot.html"><svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_107)">
+                                <path d="M25.759 9.52885C26.1177 9.52885 26.4424 9.38352 26.6775 9.14838C26.9127 8.91324 27.058 8.58857 27.058 8.22983C27.058 7.51242 26.4764 6.93115 25.759 6.93115C25.0416 6.93115 24.46 7.51276 24.46 8.22983C24.46 8.94724 25.0415 9.52885 25.759 9.52885Z" fill="#1AE9B7"/>
+                                <path d="M6.8832 23.1401C6.21138 23.1401 5.66699 23.6849 5.66699 24.3563C5.66699 25.0278 6.21172 25.5726 6.8832 25.5726C7.55468 25.5726 8.09941 25.0282 8.09941 24.3563C8.09941 23.6846 7.55503 23.1401 6.8832 23.1401Z" fill="#1AE9B7"/>
+                                <path d="M25.1777 10.2339V20.7139H26.3388V10.2339C26.1633 10.3223 25.9682 10.3768 25.7583 10.3768C25.5484 10.3768 25.3532 10.322 25.1777 10.2339Z" fill="#1AE9B7"/>
+                                <path d="M16.9369 23.1401C16.2651 23.1401 15.7207 23.6849 15.7207 24.3563C15.7207 25.0278 16.2651 25.5726 16.9369 25.5726C17.6087 25.5726 18.1531 25.0282 18.1531 24.3563C18.1531 23.6846 17.6087 23.1401 16.9369 23.1401Z" fill="#1AE9B7"/>
+                                <path d="M22.8522 1.40918H0.769004C0.39381 1.40918 0.0898438 1.71315 0.0898438 2.08834V28.6548H23.5317V2.08834C23.5313 1.71315 23.2274 1.40918 22.8522 1.40918ZM15.9607 3.06557C16.5255 3.06557 16.9832 3.52323 16.9832 4.08805C16.9832 4.65286 16.5255 5.11052 15.9607 5.11052C15.396 5.11052 14.9383 4.65286 14.9383 4.08805C14.9383 3.52323 15.396 3.06557 15.9607 3.06557ZM11.9096 2.25966C12.919 2.25966 13.7376 3.07818 13.7376 4.08764C13.7376 5.09709 12.919 5.91562 11.9096 5.91562C10.9001 5.91562 10.0816 5.09709 10.0816 4.08764C10.0816 3.07818 10.9001 2.25966 11.9096 2.25966ZM7.8584 3.06557C8.42314 3.06557 8.88088 3.52323 8.88088 4.08805C8.88088 4.65286 8.42314 5.11052 7.8584 5.11052C7.29366 5.11052 6.83592 4.65286 6.83592 4.08805C6.83634 3.52323 7.294 3.06557 7.8584 3.06557ZM6.88295 26.2771C5.82188 26.2771 4.96194 25.4172 4.96194 24.3561C4.96194 23.295 5.82222 22.4351 6.88295 22.4351C7.94402 22.4351 8.80396 23.2954 8.80396 24.3561C8.80396 25.4168 7.94402 26.2771 6.88295 26.2771ZM11.9096 26.2771C10.8485 26.2771 9.98857 25.4172 9.98857 24.3561C9.98857 23.295 10.8485 22.4351 11.9096 22.4351C12.9706 22.4351 13.8306 23.2954 13.8306 24.3561C13.8306 25.4168 12.9706 26.2771 11.9096 26.2771ZM16.9362 26.2771C15.8751 26.2771 15.0152 25.4172 15.0152 24.3561C15.0152 23.295 15.8751 22.4351 16.9362 22.4351C17.9973 22.4351 18.8572 23.2954 18.8572 24.3561C18.8571 25.4168 17.9972 26.2771 16.9362 26.2771ZM22.0491 19.8329H1.77002V6.84747H22.0491V19.8329H22.0491Z" fill="#1AE9B7"/>
+                                <path d="M11.9096 23.1401C11.2377 23.1401 10.6934 23.6849 10.6934 24.3563C10.6934 25.0278 11.2381 25.5726 11.9096 25.5726C12.5814 25.5726 13.1258 25.0282 13.1258 24.3563C13.1258 23.6846 12.5814 23.1401 11.9096 23.1401Z" fill="#1AE9B7"/>
+                                <path d="M7.85919 8.01465H7.85885H2.60059V18.6487H7.85919V8.01465ZM7.18106 12.4088C7.18037 12.4088 7.18003 12.4088 7.17969 12.4088C7.17969 12.4161 7.18106 12.4222 7.18106 12.4295C7.18106 13.6762 5.31695 14.1315 6.06734 15.9061H4.04707C3.79191 14.3144 6.01229 13.4955 6.16215 12.6293C5.94312 12.7145 5.72622 12.7925 5.40333 12.7925C4.74172 12.7925 4.67714 12.4688 3.78313 12.417V13.0459H3.27837V11.6269H3.78313V11.6346C4.67714 11.6869 4.74172 12.0102 5.40333 12.0102C6.12252 12.0102 6.31454 11.6265 7.18113 11.6265V12.4088H7.18106Z" fill="#1AE9B7"/>
+                                <path d="M26.2327 21.4009H24.2832V26.8037H26.2327C27.7247 26.8037 28.9339 25.5942 28.9339 24.1024C28.9342 22.6104 27.7247 21.4009 26.2327 21.4009Z" fill="#1AE9B7"/>
+                                <path d="M20.8846 8.01465H20.8842H15.626V18.6487H20.8846V8.01465ZM20.2065 12.4088C20.2058 12.4088 20.2054 12.4088 20.2051 12.4088C20.2051 12.4161 20.2065 12.4222 20.2065 12.4295C20.2065 13.6762 18.3423 14.1315 19.0927 15.9061H17.0724C16.8172 14.3144 19.0376 13.4955 19.1875 12.6293C18.9684 12.7145 18.7515 12.7925 18.4287 12.7925C17.767 12.7925 17.7025 12.4688 16.8085 12.417V13.0459H16.3037V11.6269H16.8085V11.6346C17.7025 11.6869 17.7674 12.0102 18.4287 12.0102C19.1478 12.0102 19.3399 11.6265 20.2065 11.6265V12.4088Z" fill="#1AE9B7"/>
+                                <path d="M14.3709 8.01465H9.1123V18.6487H14.3709V8.01465ZM13.6931 12.4088C13.6924 12.4088 13.6921 12.4088 13.6917 12.4088C13.6917 12.4161 13.6931 12.4222 13.6931 12.4295C13.6931 13.6762 11.829 14.1315 12.5794 15.9061H10.5591C10.3039 14.3144 12.5243 13.4955 12.6741 12.6293C12.4551 12.7145 12.2382 12.7925 11.9153 12.7925C11.2541 12.7925 11.1891 12.4688 10.2951 12.417V13.0459H9.79037V11.6269H10.2951V11.6346C11.1891 11.6869 11.2541 12.0102 11.9153 12.0102C12.6345 12.0102 12.8265 11.6265 13.6931 11.6265V12.4088V12.4088Z" fill="#1AE9B7"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_107">
+                                <rect width="28.844" height="28.844" fill="white" transform="translate(0.0898438 0.610352)"/>
+                                </clipPath>
+                                </defs>
+                                </svg> <p>Jackpot</p></a></li>
+                            <li class="menu-item menu-item-gr rps"><a class="menu-item-link openbtn-rps" href="#modalRPS"><svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.8676 7.83843C28.3096 7.83843 27.7744 8.0601 27.3799 8.45468C26.9853 8.84926 26.7636 9.38443 26.7636 9.94246V16.2545H25.3609V7.13708C25.3609 6.57906 25.1392 6.04389 24.7447 5.64931C24.3501 5.25473 23.8149 5.03306 23.2569 5.03306C22.6989 5.03306 22.1637 5.25473 21.7691 5.64931C21.3745 6.04389 21.1529 6.57906 21.1529 7.13708V16.2545H19.7502V5.7344C19.7502 5.17638 19.5285 4.64121 19.1339 4.24663C18.7393 3.85204 18.2042 3.63037 17.6462 3.63037C17.0881 3.63037 16.553 3.85204 16.1584 4.24663C15.7638 4.64121 15.5421 5.17638 15.5421 5.7344V16.2545H14.1394V8.53977C14.1394 7.98175 13.9178 7.44658 13.5232 7.052C13.1286 6.65742 12.5934 6.43574 12.0354 6.43574C11.4774 6.43574 10.9422 6.65742 10.5476 7.052C10.1531 7.44658 9.93138 7.98175 9.93138 8.53977V23.7028L6.81742 18.6531C6.52353 18.177 6.05251 17.837 5.50799 17.7081C4.96346 17.5792 4.39004 17.6719 3.91386 17.9658C3.43768 18.2597 3.09775 18.7307 2.96885 19.2752C2.83996 19.8198 2.93265 20.3932 3.22654 20.8694L7.86943 28.3597C8.49776 29.3756 9.37516 30.2143 10.4184 30.796C11.4617 31.3778 12.6363 31.6835 13.8308 31.6841H23.9582C25.8183 31.6841 27.6022 30.9452 28.9175 29.6299C30.2327 28.3146 30.9717 26.5307 30.9717 24.6707V9.94246C30.9717 9.38443 30.75 8.84926 30.3554 8.45468C29.9608 8.0601 29.4257 7.83843 28.8676 7.83843Z" fill="#1AE9B7"/>
+                                </svg> <p>RPS</p></a></li>
+                            <li class="menu-item menu-item-gr mrkt"><a class="menu-item-link" href="index-market.html"><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31.2435 11.248C31.1145 11.0616 30.9422 10.9092 30.7414 10.8039C30.5406 10.6986 30.3172 10.6435 30.0905 10.6435H10.92L9.30128 6.75802C9.08903 6.24635 8.72964 5.80923 8.26865 5.50207C7.80767 5.19492 7.26586 5.03156 6.71192 5.03272H3.43945V7.83809H6.71192L13.3663 23.8077C13.4728 24.0632 13.6527 24.2814 13.883 24.4349C14.1134 24.5884 14.3841 24.6703 14.6609 24.6703H25.8824C26.4673 24.6703 26.9905 24.307 27.1967 23.7614L31.4048 12.5399C31.4843 12.3276 31.5112 12.0991 31.4831 11.8741C31.455 11.6491 31.3728 11.4343 31.2435 11.248Z" fill="#1AE9B7"/>
+                                <path d="M15.3618 30.2813C16.5239 30.2813 17.4659 29.3393 17.4659 28.1773C17.4659 27.0152 16.5239 26.0732 15.3618 26.0732C14.1998 26.0732 13.2578 27.0152 13.2578 28.1773C13.2578 29.3393 14.1998 30.2813 15.3618 30.2813Z" fill="#1AE9B7"/>
+                                <path d="M25.1802 30.2813C26.3422 30.2813 27.2842 29.3393 27.2842 28.1773C27.2842 27.0152 26.3422 26.0732 25.1802 26.0732C24.0182 26.0732 23.0762 27.0152 23.0762 28.1773C23.0762 29.3393 24.0182 30.2813 25.1802 30.2813Z" fill="#1AE9B7"/>
+                                </svg><p> Market</p></a></li>
+                            <li class="menu-item menu-item-gr dep-f"><a href="/"><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.58284 21.3987C3.62997 21.5766 3.71187 21.7435 3.82382 21.8896C3.93576 22.0358 4.07554 22.1583 4.23509 22.2501L6.91421 23.7987V26.8832C6.91421 27.2552 7.062 27.612 7.32505 27.875C7.58811 28.1381 7.94488 28.2859 8.3169 28.2859H11.4014L12.95 30.965C13.0742 31.1773 13.2515 31.3536 13.4644 31.4766C13.6774 31.5995 13.9188 31.6649 14.1647 31.6664C14.4088 31.6664 14.6514 31.6018 14.8674 31.477L17.5438 29.9298L20.2229 31.4784C20.545 31.6641 20.9276 31.7145 21.2868 31.6186C21.646 31.5226 21.9524 31.288 22.139 30.9664L23.6861 28.2873H26.7706C27.1426 28.2873 27.4994 28.1395 27.7625 27.8764C28.0255 27.6134 28.1733 27.2566 28.1733 26.8846V23.8001L30.8524 22.2515C31.012 22.1593 31.1519 22.0365 31.264 21.8902C31.3761 21.7439 31.4583 21.577 31.5058 21.3989C31.5534 21.2208 31.5654 21.0351 31.5411 20.8524C31.5168 20.6697 31.4568 20.4936 31.3644 20.3341L29.8173 17.6563L31.3658 14.98C31.5519 14.658 31.6026 14.2753 31.5066 13.916C31.4105 13.5567 31.1758 13.2502 30.8538 13.0639L28.1747 11.5154V8.42947C28.1747 8.05745 28.0269 7.70067 27.7639 7.43762C27.5008 7.17456 27.144 7.02678 26.772 7.02678H23.6875L22.1404 4.34905C21.9535 4.02772 21.6476 3.7929 21.2889 3.6954C21.111 3.64717 20.9253 3.63474 20.7426 3.65881C20.5598 3.68289 20.3836 3.74301 20.2243 3.83567L17.5438 5.38283L14.866 3.83427C14.544 3.64815 14.1613 3.59753 13.802 3.69354C13.4427 3.78955 13.1362 4.02433 12.95 4.34625L11.4014 7.02538H8.3169C7.94488 7.02538 7.58811 7.17316 7.32505 7.43622C7.062 7.69927 6.91421 8.05605 6.91421 8.42806V11.5126L4.23509 13.0611C3.91326 13.2482 3.67867 13.5552 3.58271 13.9148C3.48675 14.2745 3.53724 14.6575 3.72311 14.98L5.27167 17.6563L3.72311 20.3327C3.53793 20.6557 3.48754 21.0387 3.58284 21.3987ZM17.5438 19.059C12.6624 19.059 11.933 16.4234 11.933 14.851C11.933 13.0457 13.3764 11.2278 16.1411 10.7621V9.25705H18.9465V10.8126C21.3787 11.3877 22.3129 13.4118 22.3129 14.851H20.9102L19.5075 14.8762C19.4879 14.3432 19.2059 13.4483 17.5438 13.4483C15.7217 13.4483 14.7384 14.1707 14.7384 14.851C14.7384 15.3756 14.7384 16.2536 17.5438 16.2536C22.4251 16.2536 23.1545 18.8893 23.1545 20.4617C23.1545 22.267 21.7111 24.0848 18.9465 24.5505V26.0724H16.1411V24.5575C12.8602 24.0428 11.933 21.748 11.933 20.4617H14.7384C14.7538 20.6623 14.9614 21.8644 17.5438 21.8644C19.4795 21.8644 20.3491 21.0438 20.3491 20.4617C20.3491 20.0058 20.3491 19.059 17.5438 19.059Z" fill="white"/>
+                                </svg><p>Deposit funds</p></a></li>
+                                <li><a href="#openModal" class="openbtn"><img src="assets/img/bxs-send.svg" alt="send"><p> Chat</p></a></li>
+                        </ul>
+                    </nav>
+                    
+                <div class="main-screen">
+                    <div class="profile-name">
+                        <div class="profile-name-content flex">
+                            <h2>Profile</h2>
+                            <p class="profile-nickname">D4RKDANTE</p>
+
+                        </div>
+                    </div>
+                    <div class="main-screen-content profile-bets-cont flex">
+                        
+                        <div class="main-screen-content-items profile-bets-cont-items flex">
+                            
+                            <div class="profile-menu">
+                                <div class="profile-menu-content">
+                                    <ul>
+                                        <a href="index-profile-bets.html"><li style="background: rgba(0, 10, 22, 0.4); border-left: 1.99809px solid #1AE9B7;" > Bets</li></a>
+                                        <a href="index-profile-deposit.html"><li>Deposit</li></a>
+                                        <a href="index-profile-withdraws.html"><li >Withdraws</li></a>
+                                        <a href="index-profile-purches.html"><li>Purches</li></a>
+                                    </ul>
+                                    
+                                </div>
+                                <button class="profile-menu-lo">Log out</button>
+                            </div>
+                            <div class="profile-bets">
+                                <div class="profile-bets-content">
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-w">WIN</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-l">LOSE</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-w">WIN</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-l">LOSE</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-w">WIN</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                    <div class="profile-bets-item flex">
+                                        <div class="profile-bets-item__name profile-bets-it flex"><svg width="45" height="46" viewBox="0 0 51 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.2" clip-path="url(#clip0_1_72)" filter="url(#filter0_f_1_72)">
+                                            <path d="M24.8433 25.2303C19.7193 28.6056 15.5814 33.6172 17.5879 36.6634C19.5945 39.7096 25.8326 37.8865 30.9567 34.5112C36.0818 31.1353 40.2187 26.1243 38.2121 23.0781C36.2056 20.0319 29.9685 21.8544 24.8433 25.2303ZM26.4378 38.8748L28.4756 41.9684C29.9543 41.4365 31.4893 40.696 32.9679 39.8093L30.9301 36.7156C29.5049 37.5768 28.0006 38.2998 26.4378 38.8748V38.8748ZM32.9919 35.3561L35.0297 38.4497C36.3844 37.4813 37.6427 36.3845 38.787 35.1748L36.7492 32.0811C35.6049 33.2909 34.3466 34.3876 32.9919 35.3561V35.3561ZM38.3769 30.0626L40.4147 33.1563C41.7591 31.1543 42.247 29.2035 41.2688 27.7186L39.231 24.6249C40.2092 26.1099 39.7213 28.0607 38.3769 30.0626ZM25.9778 42.6659L23.94 39.5723C21.571 40.0164 19.5843 39.6941 18.6068 38.2102L20.6446 41.3038C21.6221 42.7877 23.6088 43.1101 25.9778 42.6659Z" fill="black"/>
+                                            </g>
+                                            <g clip-path="url(#clip1_1_72)">
+                                            <path d="M16.1978 14.1165C11.0738 17.4918 6.93588 22.5034 8.94243 25.5496C10.949 28.5958 17.1871 26.7727 22.3112 23.3974C27.4363 20.0215 31.5732 15.0105 29.5666 11.9643C27.5601 8.91815 21.323 10.7406 16.1978 14.1165ZM17.7923 27.761L19.8301 30.8547C21.3088 30.3227 22.8438 29.5822 24.3224 28.6955L22.2846 25.6019C20.8594 26.463 19.3551 27.1861 17.7923 27.761V27.761ZM24.3464 24.2423L26.3842 27.3359C27.7389 26.3675 28.9972 25.2708 30.1415 24.061L28.1037 20.9674C26.9594 22.1771 25.7011 23.2739 24.3464 24.2423V24.2423ZM29.7314 18.9489L31.7692 22.0425C33.1136 20.0406 33.6015 18.0897 32.6233 16.6048L30.5855 13.5112C31.5637 14.9961 31.0758 16.9469 29.7314 18.9489ZM17.3323 31.5522L15.2945 28.4585C12.9255 28.9027 10.9388 28.5803 9.96133 27.0964L11.9991 30.1901C12.9766 31.674 14.9633 31.9963 17.3323 31.5522Z" fill="black"/>
+                                            </g>
+                                            <g opacity="0.52" clip-path="url(#clip2_1_72)" filter="url(#filter1_f_1_72)">
+                                            <path d="M19.9029 19.055C14.7788 22.4303 10.641 27.4419 12.6475 30.4881C14.6541 33.5343 20.8922 31.7112 26.0163 28.3359C31.1414 24.96 35.2782 19.949 33.2717 16.9028C31.2652 13.8566 25.028 15.6791 19.9029 19.055ZM21.4974 32.6995L23.5352 35.7931C25.0139 35.2612 26.5489 34.5207 28.0275 33.634L25.9897 30.5403C24.5645 31.4015 23.0602 32.1245 21.4974 32.6995V32.6995ZM28.0515 29.1808L30.0892 32.2744C31.444 31.306 32.7022 30.2093 33.8466 28.9995L31.8088 25.9058C30.6645 27.1156 29.4062 28.2123 28.0515 29.1808V29.1808ZM33.4365 23.8873L35.4743 26.981C36.8187 24.979 37.3065 23.0282 36.3284 21.5433L34.2906 18.4496C35.2687 19.9346 34.7809 21.8854 33.4365 23.8873ZM21.0374 36.4907L18.9996 33.397C16.6305 33.8411 14.6439 33.5188 13.6664 32.0349L15.7042 35.1285C16.6817 36.6125 18.6683 36.9348 21.0374 36.4907Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_f_1_72" x="6.60164" y="9.45369" width="45.9911" height="45.9906" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="1.23483" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <filter id="filter1_f_1_72" x="2.89603" y="4.5142" width="43.5214" height="43.5209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                            <feGaussianBlur stdDeviation="0.617413" result="effect1_foregroundBlur_1_72"/>
+                                            </filter>
+                                            <clipPath id="clip0_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(9.07129 28.2256) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip1_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(0.427734 17.1113) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            <clipPath id="clip2_1_72">
+                                            <rect width="29.6358" height="29.6358" fill="white" transform="translate(4.13086 22.0513) rotate(-33.3731)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg> <p> Coinflip</p></div>
+                                            <div class="profile-bets-item__items profile-bets-it flex">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                <img src="assets/img/item.svg" alt="itemImg">
+                                                +13
+                                            </div>
+                                            <div class="profile-bets-item__price profile-bets-it">R$0</div>
+                                            <div class="profile-bets-item__status profile-bets-it profile-bets-item__status-l">LOSE</div>
+                                            <div class="profile-bets-item__date profile-bets-it">12.12.2023</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                        
+                        <div id="openmodal" class="main-screen-chat modal">
+                            <div class="main-screen-chat-container ">
+                                <div class="main-screen-chat__title flex">
+                                    <div class="chat-icons flex">
+                                        <div class="closebtn" href="">&times;</div>
+                                        <div class="chat-online flex"><img src="assets/img/online.svg" alt="onineImg"> 117</div>
+                                    </div>
+                                    
+                                    <div class="chat-title">CHAT</div>
+                                    <a href="#modalIf" class="openbtn-if chat-rules"><img src="assets/img/bx-file.svg" alt=""></a>
+                                </div>
+                                <div class="chat-items flex">
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, numquam.</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, numquam.</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, numquam.</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, numquam.</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eos.</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                    <div class="chat-item flex">
+                                        <div class="chat-content flex">
+                                            <img src="assets/img/ava3.svg" alt="ava" class="chat-ava"> 
+                                            <div class="chat-content__message">
+                                                <div class="chat-message-name">100</div>
+                                                <div class="chat-message">Ух, как же хорошо то сделано, а</div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-time">12:15 AM</div>
+                                    </div>
+                                </div>
+                                <form action="" class="send-message flex">
+                                    <input placeholder="Send message..." type="text">
+                                    <button><img src="assets/img/bxs-send.svg" alt="send"></button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                
+            </div> 
+        </div>
+        <div id="modalIf" class="modal-i modal-main">
+            <div class="modal-i-content modal-cont flex">
+                <div class="closebtn-i closebtn-option">&times;</div>
+            <h2>MAKE SURE TO READ</h2>
+            <p>WARNING - Please READ! Fake bots with similar usernames to the real one are popping up in our private servers. ALWAYS make sure you send it to the correct user. Some of these bots may have very similar usernames so make sure to look closely! Stay safe out there - BloxLuck
+                <br><br>
+                Visit our Bot MM2ComBot in this (Private Server), and trade them, to deposit your items!
+                </p>
+                <div class="modal-if-btn">00:10</div>
+            </div>
+            
+        </div>
+        <div id="modalTA" class="modal-t modal-main">
+            <div class="modal-t-content modal-cont flex">
+                <div class="closebtn-t closebtn-option">&times;</div>
+            <h2>TOS Agreements</h2>
+            <img class="modal-t-logo" src="assets/img/logo.svg" alt="logo">
+            <h3 class="flex"><img src="assets/img/bx-info-circle 1.svg" alt="info"> Make sure to read</h3>
+            <p>By signing in you confirm that you are 18 years of age or over, of sound mind capable of taking responsibility for your own actions & are in proper jurisdiction, and have read and agreed to our Terms of Service.                
+                </p>
+                <br>
+                <a href="#modalL" class="modal-t-btn flex openbtn-l">Proceed to Login form <svg width="15" height="14" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.0996 19.7246L9.0826 17.7271L15.1239 11.6858H0.446577V8.76797H15.1239L9.0826 2.73646L11.0996 0.729225L20.5973 10.2269L11.0996 19.7246Z" fill="black"/>
+                    </svg></a>
+            </div>
+            
+        </div>
+        <div id="modalF" class="modal-f modal-main">
+            <div class="modal-f-content modal-cont flex">
+                <div class="closebtn-f closebtn-option">&times;</div>
+            <h2>PROVABLY FAIR</h2>
+            <img class="modal-f-logo" src="assets/img/logo.svg" alt="logo">
+            <h3 class="flex">Coinflips uses a reputable third party provider to determine who wins the game. Use the form below to quickly verify the validity of your results.</h3>
+            <h4>Ticket ID</h4>
+            <form class="modal-f-form" action="">
+                <input type="text">
+                <button class="modal-f-btn">Verify the results</button>
+            </form>
+            </div>
+            
+        </div>
+        <div id="modalS" class="modal-s modal-main">
+            <div class="modal-s-content  modal-cont flex">
+                <div class="closebtn-s closebtn-option">&times;</div>
+                <div class="modal-s-dropdown">
+                    <div class="dropdown-container">
+                        <div class="dropdown-toggle click-dropdown">All<svg class="dropdown-path" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.724 0.390625L7.99996 6.11463L2.27596 0.390625L0.390625 2.27596L7.99996 9.88529L15.6093 2.27596L13.724 0.390625Z" fill="white"/>
+                            </svg></div>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="/">Choise 1</a></li>
+                                    <li><a href="/">Choise 2</a></li>
+                                    <li><a href="/">Choise 3</a></li>
+                                    <li><a href="/">Choise 4</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                
+            <h2>STATS</h2>
+            <img class="modal-s-logo" src="assets/img/logo.svg" alt="logo">
+            <div class="modal-s-stats">
+                <div class="modal-s-stat flex">
+                    <p>Biggest Coinflip</p>
+                    <span>240 000</span>
+                </div>
+                <div class="modal-s-stat flex">
+                    <p>Coinflip Games</p>
+                    <span>645 834</span>
+                </div>
+                <div class="modal-s-stat flex">
+                    <p>Value Wagered</p>
+                    <span>1 002 988 346</span>
+                </div>
+                <div class="modal-s-stat flex">
+                    <p>Value Wagered</p>
+                    <span>3 318</span>
+                </div>
+            </div>
+            <div class="modal-s-btn">Exit</div>
+            
+            </div>
+            
+        </div>
+        <div id="modalL" class="modal-l modal-main">
+            <div class="modal-l-content modal-cont flex">
+                <div class="closebtn-l closebtn-option">&times;</div>
+            <h2>LOG IN</h2>
+            <img class="modal-l-logo" src="assets/img/logo.svg" alt="logo">
+            <h4>Roblox Username</h4>
+                <input class="modal-l-name" type="text">
+                <hr>
+                <div class="modal-l-txt"><h3 >Please put this code into your <span>ROBLOX Description</span>  so we can confirm this is You:</h3>
+                    <img class="modal-l-inf" src="assets/img/clc-to-copy.svg" alt=""></div>
+            
+            <form class="modal-l-form" action="">
+                <input id="modal-l-input" readonly type="text" value="friday wednesday saturday gravity heart sunday sunday heart sunday heart">
+                <button class="modal-l-copy"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.6667 2.66675H13.3334C12.6262 2.66675 11.9479 2.9477 11.4478 3.4478C10.9477 3.94789 10.6667 4.62617 10.6667 5.33341V8.00008H21.3334C22.0407 8.00008 22.7189 8.28103 23.219 8.78113C23.7191 9.28123 24.0001 9.9595 24.0001 10.6667V21.3334H26.6667C27.374 21.3334 28.0523 21.0525 28.5524 20.5524C29.0525 20.0523 29.3334 19.374 29.3334 18.6667V5.33341C29.3334 4.62617 29.0525 3.94789 28.5524 3.4478C28.0523 2.9477 27.374 2.66675 26.6667 2.66675Z" fill="white"/>
+                    <path d="M5.33341 29.3334H18.6667C20.1374 29.3334 21.3334 28.1374 21.3334 26.6667V13.3334C21.3334 11.8627 20.1374 10.6667 18.6667 10.6667H5.33341C3.86275 10.6667 2.66675 11.8627 2.66675 13.3334V26.6667C2.66675 28.1374 3.86275 29.3334 5.33341 29.3334ZM8.00008 16.0001H16.0001V18.6667H8.00008V16.0001ZM8.00008 21.3334H16.0001V24.0001H8.00008V21.3334Z" fill="white"/>
+                    </svg></button>
+                <button class="modal-l-btn-li" >Log in</button>
+            </form>
+            </div>
+            
+            
+        </div>
+        <div id="modalTOS" class="modal-tos modal-main">
+            <div class="modal-tos-content modal-cont flex">
+                <img class="modal-tos-logo" src="assets/img/logo.svg" alt="logo">
+                <div class="closebtn-tos closebtn-option">&times;</div>
+            <h2>TOS</h2>
+            <span>Overview</span>
+            <p>By using BloxLuck.com you agree to the following Terms of Service.
+                If you don`t agree with these Terms of Service, you are not allowed to use BloxLuck.com.
+                You must be at least 18 years of age to use this website.
+                </p>
+            <span>Items prices</span>
+            <p>Items prices on our site does not represent any real life value, BloxLuck.com is for entertainment purposes only. BloxLuck.com does not give opportunity to win real money.
+                </p>
+            <span>Items refunds</span>
+            <p>We do not refund any items that enters a pot, however, if your items did not enter the pot, contact our support. If you experienched any bug, you have 12 hours to contact our support, otherwise we cannot guarantee that we could find your trade. We will not take responsiblity not compensate you for items that are lost inside the bot or lost because of the rare chance of termination of the MM2 Bots.
+                </p>
+            <span>Code of Conduct</span>
+            <p>Users have to be respectful and polite to each other at any time. Any spam, harassment, staff impersonating, website advertisement is forbidden and may result in website/chat restrictions. We also reserve the right to block any user`s account for scam attempt, bug exploit, including item value abusing.
+                </p>
+            </div>
+            
+        </div>
+        <div id="modalQ" class="modal-q modal-main">
+            <div class="modal-q-content modal-cont flex">
+                <img class="modal-q-logo" src="assets/img/logo.svg" alt="logo">
+                <div class="closebtn-q closebtn-option">&times;</div>
+            <h2>FAQ</h2>
+            <span>What is Coinflip and how does it work?</span>
+            <p>Coinflip is a 1v1 PvP game mode where participants place their bets by picking one side of the coin. Each player`s chance of winning a particular match is +/- 50%. However, the player creating a coinflip is allowed to widen the range of value that can be used to join.
+                </p>
+            <span>How do I deposit/withdraw?</span>
+            <p>Click on the top right icon beside your profile to view various trading servers, trade any of the bots mentioned the items you want to wager.
+                </p>
+            <span>Why it says I don`t have permission to join the private server?</span>
+            <p>Due to the privacy policies of roblox, accounts above the age of 13 are allowed to join private servers. To enable this head over to Settings > Privacy and select the option "Everyone for the Who can invite me to private servers"
+                </p>
+            <span>Will my roblox account be safe if I use the website?</span>
+            <p>Yes, we don`t require your roblox password for you to login hence making your account 100% safe and secure.
+                </p>
+                <span>Can BloxLuck be rigged?</span>
+            <p>BloxLuck itself has no impact on the outcome of particular games. Due to the provably fair system, you`re now able to verify each games` outcome. Find more information by pressing the Fair button.
+                </p>
+            </div>
+            
+        </div>
+        <div id="modalLB" class="modal-lb modal-main">
+            <div class="modal-lb-content modal-cont flex">
+                <img class="modal-lb-logo" src="assets/img/logo.svg" alt="logo">
+                <div class="closebtn-lb closebtn-option">&times;</div>
+                <div class="main-screen__navigation-sort-btn modal-lb-sort"><p>Sort </p><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="2.375" x2="16.25" y2="2.375" stroke="white" stroke-width="3.25"/>
+                    <line x1="4.875" y1="8.87549" x2="16.25" y2="8.87549" stroke="white" stroke-width="3.25"/>
+                    <line x1="9.75" y1="15.3745" x2="16.25" y2="15.3745" stroke="white" stroke-width="3.25"/>
+                    </svg></div>
+            <h2>LEADER BOARD</h2>
+            <div class="modal-lb-table flex">
+                <div class="modal-lb-table__place flex">
+                    <h3>PLACE</h3>
+                    <ol>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                        <li><img src="assets/img/white-circle.svg" alt="ava">Nickname</li>
+                    </ol>
+                </div>
+                
+                <div class="modal-lb-table__profit flex">
+                    <h3>PROFIT</h3>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                </div>
+                <div class="modal-lb-table__wagered flex">
+                    <h3>WAGERED</h3>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p></div>
+                <div class="modal-lb-table__bets flex">
+                    <h3>BETS</h3>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p>
+                    <p>24</p></div>
+            </div>
+            </div>
+            
+        </div>
+        <div id="modalCM" class="modal-cm modal-main">
+            <div class="modal-cm-content modal-cont flex">
+                <div class="closebtn-cm closebtn-option">&times;</div>
+            <h2>COINFLIP MATCH</h2>
+            <div class="modal-cm-game flex">
+                <div class="modal-cm-game-player flex"><img class="modal-cm-game-player-ava" src="assets/img/ava.svg" alt="ava"><img src="assets/img/coin.svg" alt="coin"></div>
+                <div class="modal-cm-game-res"><img src="assets/img/coin.svg" alt="coin"></div>
+                <div class="modal-cm-game-player flex"><img src="assets/img/coin1.svg" alt="coin"><img class="modal-cm-game-player-ava" src="assets/img/ava.svg" alt="ava"></div>
+            </div>
+            <div class="modal-cm-info flex">
+                <div class="modal-cm-info-items ">
+                    <div class="modal-cm-info-bet flex"><p>Bet:</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                </div>
+                <div class="modal-cm-info-items">
+                    <div class="modal-cm-info-bet flex"><p>Bet:</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                </div>
+            </div>
+            <a class="modal-cm-button" href="/">Probably fair</a>
+            </div>
+            
+        </div>
+        <div id="modalRPS" class="modal-rps modal-main">
+            <div class="modal-cm-content modal-cont flex">
+                <div class="closebtn-rps closebtn-option">&times;</div>
+            <h2>RPS</h2>
+            <div class="modal-cm-game flex">
+                <div class="modal-cm-game-player modal-rps-game-player flex"><img class="modal-cm-game-player-ava" src="assets/img/ava.svg" alt="ava"><img class="rps-item" src="assets/img/rock.svg" alt="rock"><img class="rps-item" src="assets/img/paper.svg" alt="paper"><img class="rps-item" src="assets/img/scissors.svg" alt=""><div class="modal-rps-game-res">00:09</div></div>
+                
+                <div class="modal-cm-game-player flex"><p>?</p><img class="modal-cm-game-player-ava" src="assets/img/ava.svg" alt="ava"></div>
+            </div>
+            <div class="modal-cm-info flex">
+                <div class="modal-cm-info-items ">
+                    <div class="modal-cm-info-bet flex"><p>Bet:</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                </div>
+                <div class="modal-cm-info-items">
+                    <div class="modal-cm-info-bet flex"><p>Bet:</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                    <div class="modal-cm-info-item flex"><img src="assets/img/item.svg" alt="item"><p>LogChopper</p><p>R$12K</p></div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container flex">
+            <div class="footer-menu">
+                <ul class="footer-list flex">
+                    <li><a href="#modalTOS" class="openbtn-tos">TOS</a></li>
+                    <li><a href="#modalF" class="openbtn-f">FAIR</a></li>
+                    <li><a href="#modalS" class="openbtn-s">STATS</a></li>
+                </ul>
+            </div>
+            <div class="footer-rights">Сopyright (c) 2022 Bloxluck. All rights reserved.</div>
+            <div class="footer-contacts flex">
+                <a class="footer-contact" href="">
+                        <img class="dis-blur" src="assets/img/twitterIcon.svg" alt="twitter">                    
+                    <img class="footer-contacts-img" src="assets/img/circle.svg" alt="twitter">
+                    <img  class="twt" src="assets/img/twt.svg" alt="">
+                </a>
+                <a class="footer-contact" href="">
+                    <img class="dis-blur" src="assets/img/discordIcon.svg" alt="discord">
+                    <img class="footer-contacts-img" src="assets/img/circle.svg" alt="discord">
+                    <img class="twt" src="assets/img/dsc.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

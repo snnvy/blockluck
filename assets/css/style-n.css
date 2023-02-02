@@ -1,0 +1,8858 @@
+@import "https://fonts.cdnfonts.com/css/sf-pro-display";
+
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap";
+
+@import "https://fonts.cdnfonts.com/css/sf-pro-display";
+
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap";
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:16px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+body {
+    background:#1C212D;
+    font-family:'SF Pro Display',sans-serif;
+    font-weight:500;
+    max-height:100%;
+    max-width:100vw;
+    overflow:hidden
+}
+.main-screen-content{
+    width: 100%;
+}
+.cn-fl path {
+    fill:#000
+    }
+.menu-item a{
+    display: flex;
+align-items: center;
+font-weight: 600;
+font-size: 18px;
+margin-top: -1px;
+    color: #FFF;
+
+}
+.menu-item {
+    background:rgba(217,217,217,0.2);
+    border-radius:11.2215px;
+    height:45px;
+    margin-right:15px;
+    padding:7px 15px 10px 14px
+    }
+.chat-ava {
+-khtml-border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border-radius:50%;
+box-shadow:0 0 8px #1ae9b7;
+height:50px;
+margin-right:10px
+}
+.chat-item {
+align-items:end;
+background:#1D202B;
+border:1px solid rgba(169,169,169,0.2);
+border-radius:25px;
+flex-direction:column;
+justify-content:space-between;
+margin-bottom:10px;
+padding:14px;
+width:100%
+}
+
+.chat-item:nth-of-type(4n) {
+background:#323846;
+box-shadow:0 4px 20px rgba(0,0,0,0.41),inset 0 4px 8px rgba(255,255,255,0.09)
+}
+
+.chat-items {
+flex-direction:column-reverse;
+max-height:55vh;
+overflow-y:scroll
+}
+
+.chat-message {
+color:rgba(255,255,255,0.68);
+font-size:14px;
+line-height:120%
+}
+
+.chat-message-name {
+color:#FFF;
+font-size:15px;
+font-weight:500;
+line-height:120%
+}
+
+.chat-online {
+align-items:center;
+background:#2C303E;
+border-radius:9px;
+color:#fff;
+font-size:18px;
+padding:8px 12px
+}
+
+.chat-online img {
+height:18px;
+margin-right:4px
+}
+
+.chat-rules {
+background:#1AE9B7;
+border-radius:8px;
+padding:7px
+}
+
+.chat-time {
+color:#fff;
+font-size:12px;
+margin-top:5px;
+white-space:nowrap
+}
+
+.chat-title {
+color:#FFF;
+font-size:26px;
+font-weight:500
+}
+
+.closebtn-option {
+color:#fff;
+cursor:pointer;
+font-size:25px;
+position:absolute;
+right:20px;
+top:20px
+}
+.menu-item svg{
+    margin-right: 5px;
+}
+.cn-fl {
+    padding: 10px 15px 10px 14px;
+background:#1AE9B7;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25)
+}
+
+.cn-fl a {
+color:#000;
+margin-top:-13px
+}
+
+.cn-fl svg {
+height:45px;
+margin-top:4px
+}
+
+.dep-f {
+background:#5568EF;
+box-shadow:0 6.41228px 6.41228px rgba(0,0,0,0.25),inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+transition:.15s
+}
+
+.dep-f a {
+margin-top:-2px
+}
+
+.deposit-btn {
+background:#5568EF;
+box-shadow:0 6.41228px 6.41228px rgba(0,0,0,0.25),inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+color:#fff;
+transition:.3s
+}
+
+.deposit-btn svg {
+margin-left:6px
+}
+
+.deposit-btn:hover,.dep-f:hover {
+background:rgba(85,104,239,0.6);
+box-shadow:0 0 8px #5568EF
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}
+.dropdown-container .dropdown-menu {
+background:#202530;
+border-radius:10px;
+box-shadow:0 0 4px -2px rgba(0,0,0,0.5);
+display:none;
+left:0;
+position:absolute;
+top:100%;
+width:100%;
+z-index:10
+}
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+.dropdown-container .dropdown-toggle {
+border-radius:10px;
+box-shadow:0 0 4px -2px rgba(0,0,0,0.5);
+color:#FFF;
+cursor:pointer;
+cursor:pointer;
+position:relative;
+transition:all ease-in-out .3s;
+transition:all ease-in-out .3s
+}
+
+.dropdown-container.dropdown-open .dropdown-path {
+transform:rotate(-180deg)
+}
+
+.dropdown-menu {
+position:relative;
+z-index:10
+}
+
+.dropdown-menu::before {
+border-color:#FFF;
+box-shadow:1px 1px 4px -2px rgba(0,0,0,0.4);
+top:-4px;
+transform:rotate(-135deg);
+z-index:-1
+}
+
+.dropdown-path {
+margin-left:2px;
+transition:all ease-in-out .2s
+}
+
+.dropdown-toggle {
+background:rgba(101,91,91,0.2);
+border-radius:10px;
+color:#FFF;
+font-family:'SF Pro Display';
+font-size:18px;
+font-weight:500;
+line-height:150%;
+padding:6px 13px;
+width:100%
+}
+.footer {
+background:#1C212D;
+bottom:-3px;
+padding:10px;
+position:absolute;
+right:0;
+width:100%
+}
+
+.footer-contact {
+display:block;
+position:relative;
+transition:all ease-in-out .3s
+}
+
+.footer-contact:hover {
+transform:scale(1.06)
+}
+
+.footer-contacts-img {
+backdrop-filter:blur(16.2603px);
+height:32px
+}
+
+.footer-container {
+align-items:center;
+justify-content:space-between;
+max-width:97%
+}
+
+.footer-list {
+margin-left:380px
+}
+
+.footer-list a {
+color:rgba(255,255,255,0.2);
+font-size:14px;
+margin-right:10px;
+transition:.1s
+}
+
+.footer-list a:hover {
+color:rgba(255,255,255,0.35)
+}
+
+.header {
+background:#313642
+}
+
+.header .container {
+margin:0 auto;
+max-width:95%;
+padding:12px 50px
+}
+
+.header-content {
+align-items:center;
+justify-content:space-between
+}
+
+.header-info-button {
+align-items:center;
+background:#1AE9B7;
+border-radius:7px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+height:50px;
+justify-content:center;
+margin-right:17.78px;
+width:50px
+}
+
+.header__info {
+align-items:center;
+justify-content:space-between;
+width:340px
+}
+
+.header__info-profile,.menu-list,.main-screen__navigation-sort,.footer-contacts,.main-screen__item,.main-screen__items,.main-screen__item-players,.modal-cm-game-player {
+align-items:center
+}
+
+.header__info-profile-icon {
+height:50px;
+transition:.2s
+}
+
+.header__info-profile-icon img {
+border-radius:50px;
+height:50px
+}
+
+.header__info-profile-icon:hover {
+transform:scale(1.07)
+}
+
+.header__info-profile-name {
+color:#FFF;
+font-family:Tahoma,sans-serif;
+font-size:20px;
+font-weight:700;
+line-height:150%;
+margin-right:12.6px
+}
+
+.inventory {
+max-width:360px;
+position:relative;
+z-index:5
+}
+
+.inventory h2 {
+color:#FFF;
+font-size:32px;
+font-weight:600;
+line-height:150%;
+margin-bottom:15px;
+margin-top:5px
+}
+
+.inventory-button {
+background:#1AE9B7;
+border-radius:10px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+color:#000;
+font-size:18px;
+font-weight:600;
+line-height:150%;
+margin-right:15px;
+padding:6px;
+text-align:center;
+width:35%
+}
+
+.inventory-button:hover>.inventory-item,.outline {
+box-shadow:0 0 8px #1ae9b7
+}
+
+.inventory-buttons {
+    align-items:center;
+    height:35px
+    }
+
+.inventory-info {
+max-width:335px
+}
+
+.inventory-info-bot-btns a {
+background:#1AE9B7;
+border-radius:8px;
+color:#000;
+font-size:18px;
+margin-right:10px;
+padding:8px 6px
+}
+.inventory-info-bot-container {
+background:#202530;
+border-radius:11.22px;
+border-radius:11.2215px;
+box-shadow:inset 0 4px 32px rgba(26,233,183,0.76);
+display:none;
+margin-bottom:15px;
+opacity:.84;
+padding:15px;
+position:relative;
+width:100%
+}
+
+
+
+.inventory-info-bot-container h2>span {
+color:#1AE9B7;
+text-decoration:underline
+}
+
+.inventory-info-bot-message {
+align-items:center;
+background:#15181F;
+color:red;
+left:0;
+padding:5px;
+position:absolute;
+top:55px;
+width:100%
+}
+
+.inventory-info__button {
+align-items:center;
+border-radius:10px;
+font-size:18px;
+font-weight:500;
+padding:12px 29px
+}
+
+.inventory-info__buttons {
+height:45px;
+justify-content:space-between;
+margin-bottom:15px;
+width:48%
+}
+
+.inventory-item {
+background:#202530;
+border-radius:17.9828px;
+height:190px;
+margin-top:10px;
+transition:all ease-in-out .2s;
+width:48%
+}
+
+.inventory-item img {
+height:45%
+}
+
+.inventory-item-subtitle {
+color:rgba(255,255,255,0.36);
+font-size:18px;
+font-weight:500;
+line-height:150%;
+margin-bottom:4px
+}
+
+.inventory-item-title {
+color:#FFF;
+font-size:20px;
+font-weight:500;
+line-height:130%
+}
+
+.inventory-item-wrapper {
+border-radius:17.9828px;
+height:190px;
+padding:18px
+}
+
+.inventory-item:hover {
+box-shadow:0 0 8px #1ae9b7;
+transition:all ease-in-out .3s
+}
+
+.inventory-item:nth-last-of-type(1) {
+margin-bottom:50px
+}
+
+.inventory-item:nth-of-type(3n)>.inventory-item-wrapper {
+background:linear-gradient(0deg,rgba(59,55,255,0.12) 2.6%,rgba(18,25,36,0) 100%)
+}
+
+.inventory-item:nth-of-type(4n)>.inventory-item-wrapper {
+background:linear-gradient(0deg,rgba(255,55,55,0.12) 2.6%,rgba(18,25,36,0) 100%)
+}
+
+.inventory-item:nth-of-type(5n)>.inventory-item-wrapper {
+background:linear-gradient(0deg,rgba(255,211,55,0.12) 2.6%,rgba(18,25,36,0) 100%)
+}
+
+.inventory-item:nth-of-type(6n)>.inventory-item-wrapper,.inventory-item:nth-of-type(1)>.inventory-item-wrapper {
+background:linear-gradient(0deg,rgba(55,255,159,0.12) 2.6%,rgba(18,25,36,0) 100%)
+}
+
+.inventory-item:nth-of-type(odd) {
+margin-left:1px;
+margin-right:8px
+}
+
+.inventory__content {
+background:#313642;
+border-radius:19px;
+height:50%;
+margin-bottom:15px;
+margin-right:20px;
+overflow-y:hidden;
+padding:24px 14px 1px 13px;
+width:335px
+}
+
+.inventory__items {
+flex-wrap:wrap;
+margin-top:15px;
+max-height:48vh;
+overflow-y:scroll
+}
+
+.iventory-info__message {
+align-items:center;
+border-radius:11.2215px;
+box-shadow:inset 0 4px 32px rgba(26,233,183,0.76);
+color:#FFF;
+font-size:20px;
+font-weight:600;
+height:65px;
+justify-content:space-between;
+padding:14px 20px;
+width:100%
+}
+
+.iventory-info__message span,.modal-s-stat span,.modal-cm-info-bet p:nth-child(2),.modal-cm-info-item p:nth-child(3) {
+color:#1AE9B7
+}
+
+.iventory-info__message svg {
+height:50px;
+margin-top:12px
+}
+
+.jn-gm {
+background:#1AE9B7;
+margin-bottom:5px
+}
+
+.main-center,.modal-f-form {
+width:100%
+}
+
+.main-screen {
+background-color:#13161E;
+height:100vh
+}
+
+.main-screen-chat {
+width:23%
+}
+
+.main-screen-chat-container {
+background:#202530;
+border-radius:22px;
+max-height:90vh;
+overflow:hidden;
+padding:20px
+}
+
+.main-screen-chat__title {
+align-items:center;
+justify-content:space-between;
+margin-bottom:15px
+}
+
+.main-screen-coinflip {
+position:relative;
+width:74%
+}
+
+.main-screen-coinflip__items {
+max-height:46vh;
+overflow-y:scroll
+}
+
+.main-screen-content {
+justify-content:space-between;
+padding:20px
+}
+
+.main-screen__item {
+background:#202530;
+border-radius:17.7847px;
+justify-content:space-between;
+margin-top:10px;
+padding:10px 30px
+}
+
+.main-screen__item-button {
+border-radius:8px;
+color:#000;
+font-size:14px;
+font-weight:500;
+padding:7px 12px;
+text-align:center
+}
+.main-screen__item-player img {
+height:58px
+}
+
+.main-screen__item-players span {
+color:#1AE9B7;
+font-size:20px;
+margin-left:9px;
+margin-right:9px
+}
+
+.main-screen__item-price {
+    color:#1AE9B7;
+    font-weight:600
+    }
+
+.main-screen__item-res {
+border-radius:30px;
+height:50px;
+width:50px
+}
+
+.main-screen__items {
+color:#fff;
+font-size:14px
+}
+
+.main-screen__items img:nth-last-of-type(1),
+
+.main-screen__navigation {
+align-items:center;
+background:#202530;
+border-radius:17.7847px;
+justify-content:space-between;
+padding:17px 30px 17px 22px
+}
+
+.main-screen__navigation-crate {
+align-items:center;
+background:#1AE9B7;
+border-radius:10.3415px;
+color:#000;
+cursor:pointer;
+display:flex;
+font-size:18px;
+font-weight:500;
+justify-content:center;
+padding:9px 20px
+}
+
+.main-screen__navigation-icon {
+align-items:center;
+border-radius:50px;
+font-size:17px;
+font-weight:600;
+height:50px;
+justify-content:center;
+width:50px
+}
+
+.main-screen__navigation-icon:nth-of-type(1),.footer-contact:nth-of-type(1) {
+margin-right:7px
+}
+
+.main-screen__navigation-items {
+align-items:center;
+color:#FFF;
+font-size:16px;
+font-weight:500;
+opacity:.2
+}
+
+.main-screen__navigation-items img,.main-screen__items img {
+height:42px
+}
+
+.main-screen__navigation-price {
+color:#1AE9B7;
+font-size:18px;
+font-weight:600
+}
+
+.main-screen__navigation-sort-btn {
+align-items:center;
+background:rgba(101,91,91,0.2);
+border-radius:11.2215px;
+color:#fff;
+display:flex;
+font-size:14px;
+height:31px;
+padding:7px 13px
+}
+
+.main-screen__navigation-sort-btn svg {
+height:15px
+}
+
+.main-screen__navigation-sort-btn:hover,.vw-mch:hover {
+background:rgba(223,186,186,0.2)
+}
+
+.main-screen__navigation-sort-btn:nth-of-type(1) {
+margin-right:5px
+}
+
+.menu {
+background:#1D2333;
+height:70px;
+padding:10px
+}
+
+
+
+
+.menu-item-gr {
+transition:.3s
+}
+
+.menu-item-hvr a {
+color:#000
+}
+
+.menu-item-hvr path {
+fill:#000
+}
+
+.modal-cm-content h2 {
+color:#fff;
+font-size:20px;
+margin-bottom:30px
+}
+
+.modal-cm-game {
+align-items:center;
+justify-content:space-between;
+margin-bottom:40px;
+width:100%
+}
+
+.modal-cm-game-player p {
+background:#1F1F25;
+border-radius:8.56px;
+margin-right:10px;
+padding:12px 16px
+}
+
+.modal-cm-game-player-ava:nth-of-type(2) {
+margin-left:10px
+}
+
+.modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+height:80px
+}
+
+.modal-cm-info-bet {
+border:1px solid #555;
+color:#fff;
+font-size:18px;
+margin-bottom:15px;
+padding:13px
+}
+
+.modal-cm-info-item {
+color:#fff;
+font-size:18px;
+margin-bottom:10px;
+padding:10px
+}
+
+.modal-cm-info-item img {
+height:40px
+}
+
+.modal-cm-info-item,.modal-cm-info-bet {
+align-items:center;
+background:#1F1F25;
+border-radius:11.6468px;
+justify-content:space-between
+}
+
+.modal-cm-info-items {
+width:49.5%
+}
+
+.modal-cont {
+-webkit-backdrop-filter:blur(8px);
+align-items:center;
+backdrop-filter:blur(8px);
+background:rgba(22,22,26,0.6);
+border:1.79509px solid #484343;
+border-radius:35.9018px;
+box-shadow:0 7.18037px 7.18037px rgba(0,0,0,0.25);
+flex-direction:column;
+font-family:'Inter';
+padding:40px 55px;
+padding:20px 20px;
+position:relative;
+width:50%;
+width:37%
+}
+
+.modal-f-btn,.modal-s-btn {
+color:#000;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:600;
+padding:15px
+}
+
+.modal-f-content h3 {
+color:#FFF;
+font-size:20px;
+font-weight:400;
+line-height:25px;
+margin-bottom:20px;
+text-align:center
+}
+
+.modal-f-content h4 {
+border-top:2px solid #5A5A5A;
+color:#FFF;
+font-size:18px;
+line-height:55px;
+width:100%
+}
+
+.modal-f-form input {
+    background:#1F1F25;
+    border:1px solid #555;
+    border-radius:11.6468px;
+    color:rgba(255,255,255,0.6);
+    font-size:14px;
+    margin-bottom:15px;
+    padding:15px;
+    width:100%
+    }
+
+.modal-i-content h2,.modal-f-content h2,.modal-l-content h2 {
+color:#1AE9B7;
+font-feature-settings:liga off;
+font-size:18px;
+line-height:32px;
+margin-bottom:15px;
+text-align:center
+}
+
+.modal-i-content p {
+color:#FFF;
+font-size:20px;
+font-weight:500;
+line-height:150%;
+margin-bottom:10px
+}
+
+.modal-if-btn {
+background:#1AE9B7;
+border-radius:10px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+opacity:.6;
+padding:12px 60px;
+width:max-content
+}
+
+.modal-in {
+flex-direction:column
+}
+
+.modal-l-btn-li {
+font-size:18px
+}
+
+.modal-l-content h3 {
+color:rgba(255,255,255,0.68);
+font-feature-settings:liga off;
+font-size:18px;
+line-height:21px;
+margin-bottom:15px;
+max-width:75%;
+padding-top:15px;
+text-align:left
+}
+
+.modal-l-content h4 {
+color:#fff;
+font-size:18px;
+font-weight:500;
+margin-bottom:10px;
+text-align-last:left;
+width:100%
+}
+
+.modal-l-content hr {
+border:1px solid #555;
+width:100%
+}
+
+.modal-l-content span {
+color:#fff
+}
+
+.modal-l-copy {
+background:linear-gradient(90deg,rgba(2,0,36,0.028448879551820738) 0%,rgba(0,0,0,0.5438550420168067) 48%,rgba(0,0,0,0.7315301120448179) 100%);
+border-radius:0 11px 11px 0;
+padding:7px 15px;
+position:absolute;
+right:0;
+top:.4px
+}
+
+.modal-l-form input {
+background:#1F1F25;
+border:1px solid #555;
+border-radius:11px;
+color:rgba(255,255,255,0.6);
+font-size:16px;
+margin-bottom:15px;
+padding:15px;
+width:100%
+}
+
+.modal-l-form,.modal-l-txt {
+position:relative;
+width:100%
+}
+
+.modal-l-inf {
+bottom:0;
+position:absolute;
+right:-5px;
+width:80px
+}
+
+.modal-l-name {
+background:#1F1F25;
+border:1px solid #555;
+border-radius:11.6468px;
+color:rgba(255,255,255,0.6);
+font-size:14px;
+margin-bottom:10px;
+padding:15px;
+width:100%
+}
+
+
+
+.modal-lb-table h3 {
+color:#fff;
+font-size:20px;
+font-weight:400;
+margin-bottom:10px
+}
+
+.modal-lb-table,.modal-cm-info {
+justify-content:space-between;
+width:100%
+}
+
+.modal-lb-table__place img {
+height:35px;
+margin-right:7px
+}
+
+.modal-lb-table__place ol>li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol>li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol>li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol>li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol>li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+.inventory__items::-webkit-scrollbar,.chat-items::-webkit-scrollbar,.main-screen-coinflip__items::-webkit-scrollbar,.main-screen-coinflip::-webkit-scrollbar,.closebtn,.closebtn-in,.openbtn,.openbtn-in {
+    display:none
+    }
+.modal-q-content,.modal-tos-content {
+padding-right:20px
+}.modal-rps-game-res {
+background:#1F1F25;
+border-radius:50%;
+color:#fff;
+margin-left:7px;
+padding:45px 30px
+}
+
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+
+
+
+
+
+
+
+.modal-t-btn,.modal-f-btn,.modal-s-btn,.modal-l-btn-li {
+align-items:center;
+background:#1AE9B7;
+border-radius:8px;
+color:#000;
+font-weight:500;
+justify-content:center;
+padding:16px;
+text-align:center;
+width:100%
+}
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-t-logo,.modal-f-logo,.modal-s-logo,.modal-l-logo {
+height:130px;
+margin-bottom:50px;
+margin-top:50px
+}
+
+.rps-item {
+background:#1F1F25;
+border-radius:8.56px;
+height:40px;
+margin-right:5px;
+padding:4px;
+transition:.2s
+}
+
+.rps-item:hover {
+background-color:#1AE9B7
+}
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message button:hover,.header-info-button:hover,.inventory-button:hover,.jn-gm:hover,.main-screen__navigation-crate:hover,.chat-rules:hover,.market-item-btn:hover,.modal-f-btn:hover,.modal-s-btn:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+box-shadow:0 0 8px #1ae9b7
+}
+.twt {
+height:12px;
+left:8px;
+position:absolute;
+top:10px
+}
+
+main>.container {
+padding:0 0 0 20px
+}
+.footer-rights,.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+
+
+.chat-ava {
+border-radius:30px;
+box-shadow:0 0 8px #1ae9b7;
+height:50px;
+margin-right:10px
+}
+
+.inventory-info__button {
+align-items:center;
+border-radius:10px;
+font-size:18px;
+font-weight:500;
+justify-content:center;
+padding:12px 29px;
+width:100%
+}
+
+.inventory-info__buttons {
+height:45px;
+justify-content:space-between;
+margin-bottom:15px;
+width:100%
+}
+
+.inventory__content {
+background:#313642;
+border-radius:19px;
+height:50%;
+margin-bottom:15px;
+margin-right:20px;
+overflow-y:hidden;
+padding:13px;
+width:335px
+}
+
+.inventory__content h2 {
+font-size:24px;
+text-align:center
+}
+
+.inventory__content-li {
+align-items:center;
+background:#202530;
+border:1px solid rgba(26,233,183,0.2);
+border-radius:17.7847px;
+flex-direction:column;
+justify-content:center;
+padding:30px 20px
+}
+
+.inventory__content-li p {
+color:#5e5c5c;
+margin-bottom:15px;
+max-width:60%;
+text-align:center
+}
+
+.inventory__content-li p>span,
+.lock-img {
+height:40px;
+margin-bottom:15px
+}
+
+.main-screen-content {
+justify-content:space-between;
+padding:20px;
+width:100%
+}
+
+.main-screen__item-player img {
+height:58px
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+
+
+
+
+
+.modal-t-btn svg {
+margin-left:5px
+}
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+
+.modal-t-content p {
+color:rgba(255,255,255,0.68);
+font-feature-settings:liga off;
+font-size:18px;
+font-weight:500;
+line-height:28px
+}
+.openbtn-t {
+align-items:center;
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 12px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+color:#000;
+padding:7px 10px
+}.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message button:hover,.header-info-button:hover,.inventory-button:hover,.jn-gm:hover,.main-screen__navigation-crate:hover,.chat-rules:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+box-shadow:0 0 8px #1ae9b7
+}
+
+.inventory__content {
+background:#313642;
+border-radius:19px;
+height:50%;
+margin-bottom:15px;
+margin-right:20px;
+overflow-y:hidden;
+padding:13px;
+width:335px
+}
+
+.dropdown-container .dropdown-menu a {
+box-shadow:0 0 4px -2px rgba(0,0,0,0.5);
+color:#FFF;
+display:block;
+font-size:15px;
+font-weight:400;
+padding:10px 20px;
+transition:all ease-in-out .3s
+}
+#choose-all {
+cursor:pointer
+}
+.inventory-info__buttons {
+height:45px;
+justify-content:space-between;
+margin-bottom:15px;
+width:100%
+}
+
+.inventory-info__button {
+align-items:center;
+border-radius:10px;
+font-size:18px;
+font-weight:500;
+justify-content:center;
+padding:12px 29px;
+width:100%
+}
+
+.send-message input {
+background:#1D202B;
+border-radius:12px;
+color:rgba(255,255,255,0.8);
+padding:12px;
+width:83%
+}
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}.main-screen__item-player img {
+height:58px
+}
+.openbtn-t {
+align-items:center;
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 12px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+color:#000;
+padding:7px 10px
+}
+
+.inventory__content h2 {
+font-size:24px;
+text-align:center
+}
+
+.inventory__content-li {
+align-items:center;
+background:#202530;
+border:1px solid rgba(26,233,183,0.2);
+border-radius:17.7847px;
+flex-direction:column;
+justify-content:center;
+padding:30px 20px
+}
+
+.lock-img {
+height:40px;
+margin-bottom:15px
+}
+
+.inventory__content-li p {
+color:#5e5c5c;
+margin-bottom:15px;
+max-width:60%;
+text-align:center
+}
+
+.main-screen-coinflip__items {
+max-height:58vh;
+overflow-y:scroll
+}
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+.modal-s-stats {
+margin-bottom:15px;
+width:100%
+}
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-q-logo,.modal-tos-logo,.modal-lb-logo {
+height:30px;
+left:20px;
+position:absolute;
+top:20px
+}
+
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+.inventory-info-bot-container h2 {
+font-size:24px;
+margin-bottom:55px;
+margin-top:0
+}
+.inventory-info-bot-btns p {
+background:#15181F;
+border-radius:8px;
+color:#fff;
+font-size:18px;
+padding:8px
+}
+
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+
+.dropdown-open .dropdown-menu.dropdown-active,.main-screen__item-buttons a {
+display:block
+}
+
+/* .inventory__content-li p>span, */
+
+
+.modal-e,.modal-scs {
+-webkit-backdrop-filter:blur(14.5px);
+backdrop-filter:blur(14.5px);
+background:rgba(32,37,48,0.4);
+border-radius:11.2215px;
+box-shadow:inset 0 4px 32px rgba(233,26,26,0.76);
+opacity:0;
+padding:15px 20px;
+position:absolute;
+right:15px;
+top:15px;
+transition:.3s;
+width:250px
+}
+
+.modal-scs {
+-webkit-backdrop-filter:blur(14.5px);
+backdrop-filter:blur(14.5px);
+background:rgba(32,37,48,0.4);
+border-radius:11.2215px;
+box-shadow:inset 0 4px 32px rgba(26,233,183,0.76)
+}
+
+.modal-e p,.modal-scs p {
+color:rgba(255,255,255,0.88)
+}
+
+.scs-h {
+align-items:center;
+color:#1AE9B7;
+margin-bottom:5px
+}
+
+.error-h {
+align-items:center;
+color:red;
+margin-bottom:5px
+}
+
+.error-h img,.scs-h img {
+height:30px;
+margin-right:5px
+}
+main>.container {
+padding:0 0 0 20px
+}
+
+.dropdown-container {
+max-width:240px;
+position:relative
+}
+
+.inventory-item:hover {
+outline:.999046px solid #1AE9B7;
+transition:all ease-in-out .3s
+}
+
+.withdraw-btn svg {
+margin-right:6px
+}
+
+.menu {
+background:#1D2333;
+height:70px;
+padding:10px;
+}
+
+.main-screen-content {
+justify-content:space-between;
+padding:20px;
+}
+
+.chat-ava {
+border-radius:30px;
+height:50px;
+margin-right:10px;
+outline:2px solid #1AE9B7
+}
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-contacts-img {
+-webkit-backdrop-filter:blur(16.2603px);
+backdrop-filter:blur(16.2603px);
+height:32px
+}.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}.main-screen__item-player img {
+height:58px
+}
+
+.main-screen__item-player {
+position:relative
+}
+.player-nmb img {
+width:25px
+}.send-message button:hover,.header-info-button:hover,.inventory-button:hover,.jn-gm:hover,.main-screen__navigation-crate:hover,.chat-rules:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+outline:1px solid #9aeeda
+}
+.deposit-btn:hover,.dep-f:hover {
+background:rgba(85,104,239,0.6);
+outline:1px solid #5568EF
+}
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+.modal-t-content h2,.modal-f-content h2 {
+color:#fff;
+font-size:18px;
+line-height:32px;
+text-align:center
+}
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}.modal-f-form {
+width:100%
+}.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+
+
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+
+.dropdown-open .dropdown-menu.dropdown-active,.main-screen__item-buttons a {
+display:block
+}
+
+.inventory-button:hover>.inventory-item,.outline {
+outline:.999046px solid #1AE9B7
+}
+.dropdown-container {
+max-width:240px;
+position:relative
+}.withdraw-btn {
+background:#1AE9B7;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+color:#000;
+margin-right:8px;
+position:relative;
+z-index:4
+}
+
+.menu-item-hvr path,.mrkt path {
+fill:#000
+}
+
+.menu-item-hvr a,.mrkt p {
+color:#000
+}
+.mrkt {
+background:#1AE9B7;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25)
+}
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}.main-screen__item-player img {
+height:58px
+}
+.withdraw-btn:hover>.withdraw-blur {
+transform:scale(1.05)
+}
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+
+
+.modal-s-stat {
+background:#1F1F25;
+border-radius:11.6468px;
+color:#fff;
+font-size:16px;
+justify-content:space-between;
+margin-bottom:5px;
+padding:15px;
+width:100%
+}
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:20px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+
+
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+
+.dropdown-open .dropdown-menu.dropdown-active,.main-screen__item-buttons a {
+display:block
+}
+
+
+
+.send-message button:hover,.header-info-button:hover,.inventory-button:hover,.jn-gm:hover,.main-screen__navigation-crate:hover,.chat-rules:hover,.market-item-btn:hover,.modal-f-btn:hover,.modal-s-btn:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+box-shadow:0 0 8px #1ae9b7
+}
+
+
+.market-menu-content a {
+color:rgba(255,255,255,0.36);
+margin-right:13px
+}
+
+.market-menu-content-one,.market-menu-content-two {
+align-items:center
+}
+
+.market-menu-content-one {
+border-right:1px solid rgba(255,255,255,0.36)
+}
+
+.market-menu-content-two {
+margin-left:13px
+}
+
+.market-menu-content-one input {
+background:#1D2333;
+border-radius:5px;
+margin-right:10px;
+padding:5px;
+width:100%
+}
+
+.market-item {
+background:#1C212D;
+border-radius:15px;
+margin-bottom:10px;
+margin-right:10px;
+padding:10px;
+transition:.3s
+}
+
+.market-item_img {
+background:#44444A;
+border-radius:6px;
+height:110px;
+margin-bottom:7px;
+width:150px
+}
+
+.market-item p {
+color:rgba(255,255,255,0.36);
+font-size:14px;
+margin-bottom:7px
+}
+
+.market-item h2 {
+color:#fff;
+line-height:22px
+}
+
+.market-item-btn svg {
+height:30px;
+width:30px
+}
+
+.market-item-btn {
+background:#1AE9B7;
+border-radius:16.0307px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+margin-top:10px;
+transition:.3s;
+width:100%
+}
+
+.market-item-btn path {
+fill:#000
+}
+
+.main-screen-content-market-items {
+flex-wrap:wrap;
+height:50vh;
+overflow-y:scroll
+}
+
+.main-screen-content-market-items::-webkit-scrollbar {
+display:none
+}
+
+.market-sort {
+white-space:nowrap
+}
+
+.market-item:hover {
+transform:scale(1.01)
+}
+
+.market-item-btn:hover,.modal-f-btn:hover,.modal-s-btn:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+box-shadow:0 0 8px #1ae9b7
+}
+
+
+
+.main-screen-content {
+justify-content:space-between;
+padding:20px
+}.market-menu-content a {
+color:rgba(255,255,255,0.36);
+margin-right:13px
+}
+
+.market-menu-content-one {
+border-right:1px solid rgba(255,255,255,0.36)
+}
+
+.market-menu-content-two {
+margin-left:13px
+}
+
+.market-menu-content-one input {
+background:#1D2333;
+border-radius:5px;
+margin-right:10px;
+padding:5px;
+width:100%
+}
+
+.market-item {
+background:#1C212D;
+border-radius:15px;
+margin-bottom:10px;
+margin-right:10px;
+padding:10px
+}
+
+.market-item_img {
+background:#44444A;
+border-radius:6px;
+height:110px;
+margin-bottom:7px;
+width:150px
+}
+
+.market-item p {
+color:rgba(255,255,255,0.36);
+font-size:14px;
+margin-bottom:7px
+}
+
+.market-item h2 {
+color:#fff;
+line-height:22px
+}
+
+.market-item-btn svg {
+height:30px;
+width:30px
+}
+
+.market-item-btn {
+background:#1AE9B7;
+border-radius:16.0307px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+margin-top:10px;
+width:100%
+}
+
+.main-screen-content-market {
+width:72%
+}
+
+.main-screen-content-market-items {
+flex-wrap:wrap;
+height:70vh;
+overflow-y:scroll
+}
+.market-sort {
+white-space:nowrap
+}
+
+
+
+.chat-items {
+flex-direction:column-reverse;
+max-height:50vh;
+overflow-y:scroll
+}
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-contact:nth-of-type(1) {
+margin-right:7px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}
+
+.modal-main {
+-webkit-backdrop-filter:blur(10px);
+align-items:center;
+backdrop-filter:blur(10px);
+bottom:0;
+display:flex;
+justify-content:center;
+left:0;
+opacity:1;
+position:fixed;
+right:0;
+top:0;
+transition:.3s;
+visibility:hidden;
+width:100vw;
+z-index:1050
+}
+
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+
+
+
+
+
+.profile-bets-item__items img {
+height:30px
+}
+
+.profile-bets-item {
+background:#242836;
+justify-content:space-between;
+margin-bottom:10px;
+padding:10px
+}
+
+.profile-bets-item__name path {
+fill:#fff
+}
+
+.profile-bets-content {
+background:#202530;
+border-radius:21.979px;
+height:65vh;
+overflow-y:scroll;
+padding-top:30px
+}
+
+.profile-menu-content {
+background:#202530;
+border-radius:21.979px;
+padding:20px 0;
+width:200px
+}
+
+.profile-menu {
+margin-right:50px
+}
+
+.profile-menu-content li {
+color:#FFF;
+font-size:18px;
+line-height:45px;
+padding-left:10px
+}
+
+.profile-menu-lo {
+background:rgba(249,28,28,0.4);
+border-radius:9.99046px;
+color:red;
+margin-top:20px;
+padding:10px;
+width:100%
+}
+
+.profile-menu-content li:nth-of-type(1),.profile-menu-content li:hover {
+background:rgba(0,10,22,0.4);
+border-left:1.99809px solid #1AE9B7
+}
+
+.profile-name-content {
+padding:20px
+}
+
+.profile-name-content h2 {
+border-right:1px solid #fff;
+color:#FFF;
+padding-right:10px
+}
+
+.profile-name-content p {
+color:#FFF;
+margin-left:10px;
+opacity:.2
+}
+
+.header__info-profile,.menu-list,.market-menu-content-one,.market-menu-content-two,.footer-contacts,.modal-cm-game-player,.profile-bets-item,.profile-bets-item__items,.profile-bets-item__name {
+align-items:center
+}
+
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+
+.iventory-info__message span,.modal-s-stat span,.modal-cm-info-bet p:nth-child(2),.modal-cm-info-item p:nth-child(3),.profile-bets-item__price {
+color:#1AE9B7
+}
+
+.menu-item-hvr path,.market-item-btn path {
+fill:#000
+}
+
+.main-center,.modal-f-form,.profile-bets {
+width:100%
+}
+
+.modal-l-content span,.profile-bets-item__name,.profile-bets-item__items {
+color:#fff
+}
+
+
+
+
+.inventory__content {
+width:265px
+}
+
+
+
+
+
+.inventory-item-title,.header__info-profile-name {
+font-size:16px
+}
+
+.inventory-info__button {
+padding:12px 16px
+}
+
+.player-nmb img {
+height:20px
+}
+
+.chat-ava {
+height:28px
+}
+
+.chat-title {
+font-size:20px
+}
+
+
+
+.header-info-button {
+height:45px;
+width:45px
+}
+
+
+.inventory-info__button {
+padding:8px 4px
+}
+
+.menu-list {
+flex-wrap:wrap
+}
+
+.footer-list {
+margin-left:30px
+}
+
+.inventory__container {
+width:90%
+}
+
+.market-item_img {
+height:180px;
+width:200px
+}
+
+.market-menu-content-two {
+display:none
+}
+
+.main-screen-content-market-items {
+justify-content:center
+}
+
+.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li,.modal-cm-info-item,.modal-cm-info-bet {
+font-size:10px
+}
+
+.header__logo {
+height:60px
+}
+
+.dropdown-container .dropdown-menu ul {
+border-radius:10px;
+margin:0;
+overflow:hidden;
+padding:0;
+z-index:10
+}
+.menu-item-hvr p {
+color:#000
+}
+
+.market-menu-content a {
+color:rgba(255,255,255,0.36);
+margin-right:13px
+}
+
+.market-menu-content-one {
+border-right:1px solid rgba(255,255,255,0.36)
+}
+
+.market-menu-content-two {
+margin-left:13px
+}
+
+.market-menu-content-one input {
+background:#1D2333;
+border-radius:5px;
+margin-right:10px;
+padding:5px;
+width:100%
+}
+
+.market-item {
+background:#1C212D;
+border-radius:15px;
+margin-bottom:10px;
+margin-right:10px;
+padding:10px
+}
+
+.market-item_img {
+background:#44444A;
+border-radius:6px;
+height:110px;
+margin-bottom:7px;
+width:150px
+}
+
+.market-item p {
+color:rgba(255,255,255,0.36);
+font-size:14px;
+margin-bottom:7px
+}
+
+.market-item h2 {
+color:#fff;
+line-height:22px
+}
+
+.market-item-btn svg {
+height:30px;
+width:30px
+}
+
+.market-item-btn {
+background:#1AE9B7;
+border-radius:16.0307px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+margin-top:10px;
+width:100%
+}
+
+.main-screen-content-market {
+width:72%
+}
+
+.main-screen-content-market-items {
+flex-wrap:wrap;
+height:70vh;
+overflow-y:scroll
+}
+.market-sort {
+white-space:nowrap
+}
+
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-contact:nth-of-type(1) {
+margin-right:7px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}.vw-mch {
+background:#2E3441;
+color:#fff
+}.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+
+
+
+.main-screen-content-items {
+width:70%
+}
+
+.profile-bets-item {
+background:#242836;
+justify-content:space-between;
+margin-bottom:10px;
+padding:10px
+}
+
+
+
+
+
+
+
+.profile-bets-item__date {
+color:rgba(255,255,255,0.2)
+}
+
+
+
+.profile-menu-content {
+background:#202530;
+border-radius:21.979px;
+padding:20px 0;
+width:200px
+}
+
+.profile-menu {
+margin-right:50px
+}
+
+.profile-menu-content li {
+color:#FFF;
+font-size:18px;
+line-height:45px;
+padding-left:10px
+}
+
+.profile-menu-lo {
+background:rgba(249,28,28,0.4);
+border-radius:9.99046px;
+color:red;
+margin-top:20px;
+padding:10px;
+width:100%
+}
+
+.profile-menu-lo:hover {
+background:rgba(249,28,28,0.2);
+box-shadow:0 0 8px red
+}
+
+.profile-menu-content li:nth-of-type(2),.profile-menu-content li:hover {
+background:rgba(0,10,22,0.4);
+border-left:1.99809px solid #1AE9B7
+}
+
+.profile-name-content {
+padding:20px
+}
+
+.profile-name-content h2 {
+border-right:1px solid #fff;
+color:#FFF;
+padding-right:10px
+}
+
+.profile-name-content p {
+color:#FFF;
+margin-left:10px;
+opacity:.2
+}
+
+.header__info-profile,.menu-list,.market-menu-content-one,.market-menu-content-two,.footer-contacts,.modal-cm-game-player,.profile-bets-item,.profile-bets-item__items,.profile-bets-item__name {
+align-items:center
+}
+
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}.modal-cm-info-item img,.profile-bets-item__items img {
+height:40px
+}
+
+.profile-menu {
+margin-right:15px
+}
+.modal-q-content {
+padding-right:20px
+}
+
+
+
+
+
+
+
+.inventory-item-title,.header__info-profile-name {
+font-size:16px
+}
+
+.inventory-info__button {
+padding:12px 16px
+}
+
+.player-nmb img {
+height:20px
+}
+
+.chat-ava {
+height:28px
+}
+
+.chat-title {
+font-size:20px
+}
+
+.openbtn-in p,.openbtn p{
+    display: none;
+}
+
+.header-info-button {
+height:45px;
+width:45px
+}
+
+
+.openbtn-in,.openbtn {
+    padding: 23.5px 12px;
+}.inventory-info__button {
+padding:8px 4px
+}
+
+
+
+
+.menu-list {
+flex-wrap:wrap
+}
+
+.footer-list {
+margin-left:30px
+}
+
+.inventory__container {
+width:90%
+}
+
+.market-item_img {
+height:180px;
+width:200px
+}
+
+.market-menu-content-two {
+display:none
+}
+
+.main-screen-content-market-items {
+justify-content:center
+}
+
+.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li,.modal-cm-info-item,.modal-cm-info-bet {
+font-size:10px
+}
+
+.flex {
+display:flex
+}.dropdown-open .dropdown-menu.dropdown-active {
+display:block
+}
+
+.market-menu-content a {
+color:rgba(255,255,255,0.36);
+margin-right:13px
+}
+
+.market-menu-content-one {
+border-right:1px solid rgba(255,255,255,0.36)
+}
+
+.market-menu-content-two {
+margin-left:13px
+}
+
+.market-menu-content-one input {
+background:#1D2333;
+border-radius:5px;
+margin-right:10px;
+padding:5px;
+width:100%
+}
+
+.market-item {
+background:#1C212D;
+border-radius:15px;
+margin-bottom:10px;
+margin-right:10px;
+padding:10px
+}
+
+.market-item_img {
+background:#44444A;
+border-radius:6px;
+height:110px;
+margin-bottom:7px;
+width:150px
+}
+
+.market-item p {
+color:rgba(255,255,255,0.36);
+font-size:14px;
+margin-bottom:7px
+}
+
+.market-item h2 {
+color:#fff;
+line-height:22px
+}
+
+.market-item-btn svg {
+height:30px;
+width:30px
+}
+
+.market-item-btn {
+background:#1AE9B7;
+border-radius:16.0307px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+margin-top:10px;
+width:100%
+}
+
+.main-screen-content-market {
+width:72%
+}
+
+.main-screen-content-market-items {
+flex-wrap:wrap;
+height:70vh;
+overflow-y:scroll
+}
+.market-sort {
+white-space:nowrap
+}
+
+
+.chat-content__message {
+max-width:290px
+}
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-contact:nth-of-type(1) {
+margin-right:7px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}
+
+.send-message button:hover,.header-info-button:hover,.inventory-button:hover,.jn-gm:hover {
+background:rgba(26,233,183,0.8);
+box-shadow:none;
+box-shadow:0 0 8px #1ae9b7
+}
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+
+
+.modal-cm-game-player-ava:nth-of-type(1) {
+margin-right:10px
+}
+
+
+
+.profile-bets-item {
+background:#242836;
+justify-content:space-between;
+margin-bottom:10px;
+padding:10px
+}
+
+
+
+
+
+.profile-bets-item__status-l {
+color:#FF0707
+}
+
+
+
+.profile-bets-content {
+background:#202530;
+border-radius:21.979px;
+height:50vh;
+overflow-y:scroll;
+padding-top:30px
+}
+
+.profile-menu-content {
+background:#202530;
+border-radius:21.979px;
+padding:20px 0;
+width:200px
+}
+
+.profile-menu {
+margin-right:50px
+}
+
+.profile-menu-content li {
+color:#FFF;
+font-size:18px;
+line-height:45px;
+padding-left:10px
+}
+
+.profile-bets-item__eror {
+color:red;
+text-align:right;
+width:76px
+}
+
+.profile-menu-lo {
+background:rgba(249,28,28,0.4);
+border-radius:9.99046px;
+color:red;
+margin-top:20px;
+padding:10px;
+width:100%
+}
+
+.profile-menu-lo:hover {
+background:rgba(249,28,28,0.2);
+box-shadow:0 0 8px red
+}
+
+.profile-menu-content li:nth-of-type(4),.profile-menu-content li:hover {
+background:rgba(0,10,22,0.4);
+border-left:1.99809px solid #1AE9B7
+}
+
+.profile-name-content {
+padding:20px
+}
+
+.profile-name-content h2 {
+border-right:1px solid #fff;
+color:#FFF;
+padding-right:10px
+}
+
+.profile-name-content p {
+color:#FFF;
+margin-left:10px;
+opacity:.2
+}
+
+.iventory-info__message span,.modal-s-stat span,.modal-cm-info-bet p:nth-child(2),.modal-cm-info-item p:nth-child(3),.profile-bets-item__price {
+color:#1AE9B7
+}
+
+.menu-item-hvr path,.market-item-btn path {
+fill:#000
+}
+
+.modal-l-content span,.profile-bets-item__name,.profile-bets-item__items,.profile-bets-item__nameit {
+color:#fff
+}
+
+@media screen and (min-width:1710px) {
+.chat-items {
+max-height:50vh
+}
+
+.chat-item {
+flex-direction:row
+}
+
+.inventory__content {
+height:62%
+}
+
+.header .container {
+padding:12px 26px
+}
+
+.market-item_img {
+height:120px;
+width:170px
+}
+
+.main-screen-content-market-items {
+height:700px
+}
+}
+
+@media screen and (max-width:1650px) {
+.inventory h2 {
+font-size:24px
+}
+
+.inventory-item img {
+height:40%
+}
+
+.inventory-item-subtitle,.chat-online,.menu-item a {
+font-size:16px
+}
+
+.inventory-item-title,.header__info-profile-name {
+font-size:18px
+}
+
+.chat-ava {
+height:35px
+}
+
+.chat-title {
+font-size:22px
+}
+
+.chat-time {
+font-size:10px
+}
+}
+
+
+
+
+
+
+
+
+
+.inventory-item-title,.header__info-profile-name {
+font-size:16px
+}
+
+.inventory-info__button {
+padding:12px 16px
+}
+
+.player-nmb img {
+height:20px
+}
+
+.chat-ava {
+height:28px
+}
+
+.chat-title {
+font-size:20px
+}
+
+
+
+.header-info-button {
+height:45px;
+width:45px
+}
+
+
+@media screen and (max-width:1320px) {
+.main-screen-content-items {
+width:67%
+}
+
+.profile-bets-item__items img {
+height:20px
+}
+
+.profile-menu {
+margin-bottom:10px;
+width:200px
+}
+
+.main-screen-content-market-items {
+justify-content:center
+}
+
+.market-item_img {
+height:60px;
+width:110px
+}
+
+.main-screen-content-market {
+width:100%
+}
+
+.chat-ava {
+height:25px
+}
+
+.chat-time {
+font-size:8px
+}
+
+.chat-rules {
+padding:5px
+}
+
+
+.chat-items {
+max-height:46vh
+}
+
+.footer-rights,.footer-list a {
+font-size:10px
+}
+
+.inventory-item {
+width:46%
+}
+
+.inventory__content {
+padding:24px 6px 1px 13px;
+width:245px
+}
+
+.dropdown-path {
+width:10px
+}
+
+.iventory-info__message {
+font-size:16px
+}
+
+.inventory-info__button {
+padding:12px 11px
+}
+
+.footer-list {
+margin-left:302px
+}
+
+.header__info {
+width:290px
+}
+
+.profile-bets-item,.chat-message,.dropdown-toggle,.inventory-button {
+font-size:12px
+}
+
+.market-menu-content a,.chat-message-name,.inventory-item-title,.header__info-profile-name {
+font-size:14px
+}
+}
+@media screen and (max-width:720px) {
+    .menu-list svg, .menu-list img,.chat-rules img, .openbtn img, .openbtn-in img{
+        height: 25px;
+        width: 25px;
+    }
+.main-screen-content {
+justify-content:center;
+padding:0 10px;
+padding-top:0;
+width:90%;
+width:100%
+}
+
+.profile-bets-it {
+margin-bottom:5px
+}
+
+.profile-bets-item__eror {
+width:auto
+}
+
+.profile-bets-item {
+flex-direction:column
+}
+
+.profile-bets-item__name svg {
+height:35px;
+width:35px
+}
+
+.profile-menu-content li {
+font-size:16px;
+line-height:40px
+}
+
+.market-sort svg {
+height:10px
+}
+
+.market-menu-content a {
+font-size:10px;
+margin-right:5px
+}
+
+.main-screen-chat-container {
+width:70%
+}
+
+main>.container {
+padding:0
+}
+
+
+
+.cn-fl svg {
+height:35px;
+margin-bottom:-6px;
+width:35px
+}
+
+.menu-item {
+height:auto;
+margin-right:7px;
+padding:7px 12px
+}
+
+.openbtn-in p,.openbtn p {
+display:none
+}
+
+.openbtn-in,.openbtn {
+height:auto;
+padding:5.5px 12px;
+width:auto
+}
+
+.modal-cm-game-player-ava:nth-of-type(2) {
+margin-left:3px
+}
+
+.modal-cm-game-player-ava:nth-of-type(1) {
+margin-right:3px
+}
+
+.modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+height:60px
+}
+
+.modal-cm-info-item img {
+height:30px
+}
+
+.modal-cont {
+width:90%
+}
+
+.modal-cm-info-item,.modal-cm-info-bet {
+font-size:13px
+}
+
+.dropdown-path {
+width:7px
+}
+
+.inventory-info__buttons {
+height:auto;
+margin-bottom:0;
+width:100%
+}
+
+.inventory-info__button {
+justify-content:center;
+margin-bottom:5px
+}
+
+.iventory-info__message {
+height:auto;
+padding:10px 7px
+}
+
+.inventory h2 {
+font-size:20px
+}
+
+.menu-list {
+justify-content:center
+}
+
+.footer-rights,.footer-list a {
+font-size:8px
+}
+
+.menu-item a {
+font-size:10px;
+font-weight:400
+}
+
+
+.openbtn-in {
+margin-right:7px
+}
+
+.inventory-button,.dropdown-toggle,.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li {
+font-size:14px
+}
+}
+.inventory-info__button {
+padding:8px 4px
+}
+
+.menu-list {
+flex-wrap:wrap
+}
+
+.footer-list {
+margin-left:30px
+}
+
+.inventory__container {
+width:90%
+}
+
+.market-item_img {
+height:180px;
+width:200px
+}
+
+.market-menu-content-two {
+display:none
+}
+
+.main-screen-content-market-items {
+justify-content:center
+}
+
+.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li,.modal-cm-info-item,.modal-cm-info-bet {
+font-size:10px
+}
+
+.inventory-info-bot-closebtn {
+color:#fff;
+cursor:pointer;
+font-size:22px;
+position:absolute;
+right:13px;
+top:10px
+}
+
+.withdraw-blur {
+background:#1AE9B7;
+filter:blur(9.5px);
+height:50px;
+left:0;
+position:absolute;
+top:0;
+transition:.2s;
+width:100%;
+z-index:-1
+}
+
+.market-menu-content {
+background:#313642;
+padding:10px
+}
+
+.market-menu-content a {
+color:rgba(255,255,255,0.36);
+margin-right:13px
+}
+
+.market-menu-content-one {
+border-right:1px solid rgba(255,255,255,0.36)
+}
+
+.market-menu-content-two {
+margin-left:13px
+}
+
+.market-menu-content-one input {
+background:#1D2333;
+border-radius:5px;
+margin-right:10px;
+padding:5px;
+width:100%
+}
+
+.market-item {
+background:#1C212D;
+border-radius:15px;
+margin-bottom:10px;
+margin-right:10px;
+padding:10px
+}
+
+.market-item_img {
+background:#44444A;
+border-radius:6px;
+height:110px;
+margin-bottom:7px;
+width:150px
+}
+
+.market-item p {
+color:rgba(255,255,255,0.36);
+font-size:14px;
+margin-bottom:7px
+}
+
+.market-item h2 {
+color:#fff;
+line-height:22px
+}
+
+.market-item-btn svg {
+height:30px;
+width:30px
+}
+
+.market-item-btn {
+background:#1AE9B7;
+border-radius:16.0307px;
+box-shadow:inset 0 6.41228px 6.41228px rgba(255,255,255,0.25);
+margin-top:10px;
+width:100%
+}
+
+.main-screen-content-market {
+width:72%
+}
+
+.main-screen-content-market-items {
+flex-wrap:wrap;
+height:70vh;
+overflow-y:scroll
+}
+.market-sort {
+white-space:nowrap
+}
+
+.send-message {
+justify-content:space-between;
+margin-top:8px
+}
+
+.send-message button {
+background:#1AE9B7;
+border-radius:7.11389px;
+box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+padding:10px
+}
+
+.send-message button img {
+height:20px
+}
+
+.send-message input::placeholder {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.footer-contact:nth-of-type(1) {
+margin-right:7px
+}
+
+.footer-rights {
+color:rgba(255,255,255,0.2);
+font-size:14px
+}
+
+.dis-blur {
+filter:blur(17.7847px);
+height:20px;
+position:absolute;
+right:6px;
+top:10px;
+z-index:2
+}.player-nmb {
+align-items:center;
+border-radius:10px;
+color:#000;
+display:flex;
+font-size:8px;
+height:25px;
+justify-content:center;
+position:absolute;
+right:-5px;
+top:-7px;
+width:25px
+}
+
+.modal-s-dropdown {
+left:30px;
+position:absolute;
+top:20px
+}
+.modal-s-content .dropdown-container .dropdown-menu {
+width:130px
+}
+
+.modal-s-content .dropdown-toggle {
+padding:6px 9px
+}
+
+.modal-s-content .dropdown-path {
+margin-left:10px;
+width:9px
+}
+
+.modal-s-content h2 {
+color:#fff;
+font-size:20px;
+line-height:32px;
+text-align:center
+}
+
+
+
+
+
+
+
+
+.modal-t-content h3 {
+align-items:center;
+border-bottom:2px solid #5A5A5A;
+color:#FFF;
+font-feature-settings:liga off;
+font-size:20px;
+font-weight:700;
+justify-content:center;
+line-height:52px;
+margin-bottom:13px;
+width:100%
+}
+.modal-t-content h3>img {
+height:15px;
+margin-right:5px
+}
+.modal-q-content span,.modal-tos-content span {
+color:#1AE9B7;
+font-size:18px;
+margin-bottom:15px;
+margin-top:20px;
+text-align:left;
+width:100%
+}
+
+.modal-q-content,.modal-tos-content {
+padding-right:120px
+}
+
+.modal-q-content p,.modal-tos-content p {
+color:#fff;
+font-size:18px;
+font-weight:400;
+line-height:22px
+}
+
+.modal-q-content h2,.modal-tos-content h2 {
+color:#FFF;
+font-feature-settings:liga off;
+font-size:24px;
+font-weight:600;
+line-height:32px;
+text-align:center
+}
+
+.modal-lb-table__place ol {
+list-style:none
+}
+
+.modal-lb-table__place ol > li {
+align-items:center;
+color:rgba(255,255,255,0.8);
+counter-increment:customlistcounter;
+display:flex;
+font-size:18px;
+margin-bottom:7px
+}
+
+.modal-lb-table__place ol > li:nth-of-type(1) {
+color:#FFD337
+}
+
+.modal-lb-table__place ol > li:nth-of-type(2) {
+color:#FFF
+}
+
+.modal-lb-table__place ol > li:nth-of-type(3) {
+color:#EDB472
+}
+
+.modal-lb-table__place ol > li:before {
+content:"#" counter(customlistcounter);
+float:left;
+font-style:italic;
+font-weight:700;
+width:40px
+}
+
+.modal-lb-table__place ol:first-child {
+counter-reset:customlistcounter
+}
+.modal-lb-table__profit,.modal-lb-table__place,.modal-lb-table__bets,.modal-lb-table__wagered {
+flex-direction:column;
+justify-content:space-between
+}
+
+.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p {
+color:#fff;
+height:35px;
+text-align:center
+}
+
+
+
+.modal-lb-content h2 {
+color:#fff;
+font-size:22px;
+margin-bottom:40px
+}
+
+
+
+
+
+.profile-bets-item {
+background:#242836;
+justify-content:space-between;
+margin-bottom:10px;
+padding:10px
+}
+
+
+
+.profile-bets-item__status-w {
+color:#07FF2F
+}
+
+
+
+
+
+
+
+.profile-menu-content {
+background:#202530;
+border-radius:21.979px;
+padding:20px 0;
+width:200px
+}
+
+.profile-menu {
+margin-right:50px
+}
+
+.profile-menu-content li {
+color:#FFF;
+font-size:18px;
+line-height:45px;
+padding-left:10px
+}
+
+.profile-bets-item__eror {
+color:red;
+text-align:right;
+width:76px
+}
+
+.profile-menu-lo {
+background:rgba(249,28,28,0.4);
+border-radius:9.99046px;
+color:red;
+margin-top:20px;
+padding:10px;
+width:100%
+}
+
+.profile-menu-lo:hover {
+background:rgba(249,28,28,0.2);
+box-shadow:0 0 8px red
+}
+
+.profile-menu-content li:nth-of-type(3),.profile-menu-content li:hover {
+background:rgba(0,10,22,0.4);
+border-left:1.99809px solid #1AE9B7
+}
+
+.profile-name-content {
+padding:20px
+}
+
+.profile-name-content h2 {
+border-right:1px solid #fff;
+color:#FFF;
+padding-right:10px
+}
+
+.profile-name-content p {
+color:#FFF;
+margin-left:10px;
+opacity:.2
+}
+
+.header__info-profile,.menu-list,.market-menu-content-one,.market-menu-content-two,.footer-contacts,.modal-cm-game-player,.profile-bets-item,.profile-bets-item__items,.profile-bets-item__name {
+align-items:center
+}
+.dropdown-container .dropdown-menu a:hover,.dropdown-container .dropdown-menu a:active,.dropdown-container .dropdown-menu a:focus,.dropdown-container.dropdown-open .dropdown-toggle {
+background:rgba(101,91,91,0.2);
+color:#FFF
+}
+
+@media screen and (min-width:3000px) {
+.chat-message {
+font-size:20px
+}
+
+.chat-message-name {
+font-size:24px
+}
+
+.chat-ava {
+height:70px
+}
+
+.chat-time {
+font-size:18px
+}
+
+.chat-title {
+font-size:30px
+}
+
+.inventory {
+max-width:450px
+}
+}
+
+@media screen and (max-width:1440px) {
+.profile-bets-item__items img {
+height:30px
+}
+
+.modal-cont {
+width:50%
+}
+
+.inventory-item-title,.header__info-profile-name {
+font-size:16px
+}
+
+.inventory-info__button {
+padding:12px 16px
+}
+
+.player-nmb img {
+height:20px
+}
+
+.chat-ava {
+height:28px
+}
+
+.chat-title {
+font-size:20px
+}
+
+.header__logo {
+height:52px
+}
+
+.header-info-button {
+height:45px;
+width:45px
+}
+
+.profile-bets-item,.inventory-item-subtitle,.chat-online,.menu-item a {
+font-size:14px
+}
+}
+
+@media screen and (max-width:413px) {
+.modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+height:40px
+}
+.openbtn-in,.openbtn {
+padding:5px 7px
+}
+.inventory-info__button {
+padding:8px 4px
+}
+
+.menu-list {
+flex-wrap:wrap
+}
+
+.footer-list {
+margin-left:30px
+}
+
+.inventory__container {
+width:90%
+}
+
+.market-item_img {
+height:180px;
+width:200px
+}
+
+.market-menu-content-two {
+display:none
+}
+
+.main-screen-content-market-items {
+justify-content:center
+}
+
+.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li,.modal-cm-info-item,.modal-cm-info-bet {
+font-size:10px
+}
+}
+@media screen and (max-width:877px) {
+    .market-item-btn svg {
+    height:25px;
+    width:25px
+    }
+    
+    .modal-cont {
+    width:70%
+    }
+    
+    .modal-q-content p,.modal-q-content span,.modal-tos-content p,.modal-tos-content span {
+    font-size:13px
+    }
+    
+    .modal-q-content span,.modal-tos-content span {
+    margin-bottom:10px;
+    margin-top:15px
+    }
+    
+    .modal-q-content h2,.modal-tos-content h2 {
+    font-size:22px
+    }
+    
+    .inventory-info__button {
+    font-size:12px;
+    padding:12px 4px
+    }
+    
+    .deposit-btn svg,.withdraw-btn svg {
+    height:20px
+    }
+    
+    .inventory-item:nth-of-type(odd) {
+    margin-right:5px
+    }
+    
+    .withdraw-btn svg,.deposit-btn svg {
+    margin:0
+    }
+    
+    .inventory__items {
+    justify-content:center
+    }
+    
+    .menu {
+    height:auto
+    }
+    
+    .header .container {
+    padding:12px 10px
+    }
+    
+    .menu-item,.openbtn-in, .openbtn {
+    height:30px;
+    padding:8px
+    }
+    
+    .menu-item svg {
+    height:20px;
+    margin-right:0;
+    width:25px
+    }
+    
+    .cn-fl svg {
+    height:40px;
+    width:30px
+    }
+    
+    .modal-i-content h2,.modal-f-content h2 {
+    font-size:12px
+    }
+    
+    .modal-if-btn {
+    padding:8px 40px
+    }
+    
+    .modal-t-logo,.modal-f-logo,.modal-s-logo {
+    height:100px;
+    margin-bottom:25px;
+    margin-top:25px
+    }
+    
+    .modal-f-content h4 {
+    font-size:14px;
+    line-height:40px
+    }
+    
+    .modal-f-form input {
+    padding:13px
+    }
+    
+    .modal-f-btn,.modal-s-stat,.modal-s-btn {
+    font-size:14px;
+    padding:10px
+    }
+    
+    .market-item h2,.modal-i-content p,.modal-f-content h3,.modal-s-content h2 {
+    font-size:14px
+    }
+    
+    .inventory-info__buttons,.withdraw-blur {
+    height:35px
+    }
+    
+    .iventory-info__message,.iventory-info__message svg {
+    height:40px
+    }
+    }
+    
+    @media screen and (max-width:720px) {
+        .menu-list svg, .menu-list img {
+            height: 25px;
+            width: 25px;
+        }
+    .main-screen-content {
+    justify-content:center;
+    padding:0 10px;
+    padding-top:0;
+    width:90%;
+    width:100%
+    }
+    
+    .profile-bets-it {
+    margin-bottom:5px
+    }
+    
+    .profile-bets-item {
+    flex-direction:column
+    }
+    
+    .profile-bets-item__name svg {
+    height:35px;
+    width:35px
+    }
+    
+    .profile-menu-content li {
+    font-size:16px;
+    line-height:40px
+    }
+    
+    .market-sort svg {
+    height:10px
+    }
+    
+    .market-menu-content a {
+    font-size:10px;
+    margin-right:5px
+    }
+    
+    .main-screen-chat-container {
+    width:70%
+    }
+    
+    main>.container {
+    padding:0
+    }
+    
+    
+    
+    .cn-fl svg {
+    height:35px;
+    margin-bottom:-6px;
+    width:35px
+    }
+    
+    .menu-item {
+    height:auto;
+    margin-right:7px;
+    padding:7px 12px
+    }
+    
+    .openbtn-in p,.openbtn p {
+    display:none
+    }
+    
+    .openbtn-in,.openbtn {
+    height:auto;
+    padding:5.5px 12px;
+    width:auto
+    }
+    
+    .modal-cm-game-player-ava:nth-of-type(2) {
+    margin-left:3px
+    }
+    
+    .modal-cm-game-player-ava:nth-of-type(1) {
+    margin-right:3px
+    }
+    
+    .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+    height:60px
+    }
+    
+    .modal-cm-info-item img {
+    height:30px
+    }
+    
+    .modal-cont {
+    width:90%
+    }
+    
+    .modal-cm-info-item,.modal-cm-info-bet {
+    font-size:13px
+    }
+    
+    .dropdown-path {
+    width:7px
+    }
+    
+    .inventory-info__buttons {
+    height:auto;
+    margin-bottom:0;
+    width:100%
+    }
+    
+    .inventory-info__button {
+    justify-content:center;
+    margin-bottom:5px
+    }
+    
+    .iventory-info__message {
+    height:auto;
+    padding:10px 7px
+    }
+    
+    .inventory h2 {
+    font-size:20px
+    }
+    
+    .menu-list {
+    justify-content:center
+    }
+    
+    .footer-rights,.footer-list a {
+    font-size:8px
+    }
+    
+    .menu-item a {
+    font-size:10px;
+    font-weight:400
+    }
+    
+    
+    .openbtn-in {
+    margin-right:7px
+    }
+    
+    .inventory-button,.dropdown-toggle,.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li {
+    font-size:14px
+    }
+    }
+    @media screen and (min-width:2200px) {
+        .market-item_img {
+        height:120px;
+        width:180px
+        }
+        
+        .chat-items {
+        max-height:67vh
+        }
+        
+        .inventory__content {
+        height:60%;
+        width:348px
+        }
+        
+        .inventory__items {
+        max-height:60vh
+        }
+        
+        .inventory-button {
+        font-size:20px;
+        padding:10px;
+        width:auto
+        }
+        
+        .dropdown-toggle {
+        padding:10px 13px
+        }
+        
+        .chat-message-name {
+        font-size:18px
+        }
+        
+        .chat-message {
+        font-size:16px
+        }
+        
+        .main-screen-content {
+        width:82%
+        }
+        
+        .header-content {
+        max-width:none
+        }
+        
+        .inventory-buttons,.inventory-info__buttons {
+        height:auto
+        }
+        }
+        
+    @media screen and (max-width:1600px) {
+        .profile-bets-it {
+        margin-right:5px
+        }
+        
+        .inventory__content {
+        height:30%;
+        width:287px
+        }
+        
+        .dropdown-toggle,.inventory-button {
+        font-size:14px
+        }
+        
+        .inventory-item-wrapper,.inventory-item {
+        height:160px
+        }
+        
+        .inventory,.inventory-info {
+        margin-right:10px;
+        max-width:300px
+        }
+        
+        .inventory-info__button {
+        font-size:16px;
+        padding:12px 20px
+        }
+        
+        .deposit-btn svg,.withdraw-btn svg {
+        height:27px
+        }
+        
+        .iventory-info__message {
+        font-size:18px;
+        width:100%
+        }
+        
+        .inventory__items {
+        margin-top:10px;
+        max-height:47vh
+        }
+    }
+    @media screen and (min-width:1710px) {
+        .chat-item {
+        flex-direction:row
+        }
+        
+        .chat-items {
+        max-height:60vh
+        }
+        
+        .header .container {
+        padding:12px 26px
+        }
+        
+        .inventory__content {
+        height:62%
+        }
+        
+        .main-screen-coinflip__items {
+        max-height:62vh
+        }
+        }
+        
+        @media screen and (min-width:2200px) {
+        .chat-items {
+        max-height:67vh
+        }
+        
+        .chat-message,.main-screen__item-button,.main-screen__items {
+        font-size:16px
+        }
+        
+        .chat-message-name {
+        font-size:18px
+        }
+        
+        .dropdown-toggle {
+        padding:10px 13px
+        }
+        
+        .header-content {
+        max-width:none
+        }
+        
+        .inventory-button {
+        font-size:20px;
+        padding:10px;
+        width:auto
+        }
+        
+        .inventory-buttons,.inventory-info__buttons {
+        height:auto
+        }
+        
+        .inventory__content {
+        height:60%;
+        width:348px
+        }
+        
+        .inventory__items {
+        max-height:80vh
+        }
+        
+        .main-screen-coinflip__items {
+        max-height:65vh
+        }
+        
+        .main-screen-content {
+        width:82%
+        }
+        
+        .main-screen__item {
+        padding:16px 30px
+        }
+        
+        .main-screen__navigation-crate,.main-screen__navigation-price {
+        font-size:20px
+        }
+        
+        .main-screen__navigation-items img,.main-screen__items img {
+        height:50px
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:16px;
+        padding:19px
+        }
+        }
+        
+        @media screen and (min-width:2600px) {
+        .chat-items {
+        max-height:72vh
+        }
+        
+        .inventory__items {
+        max-height:92vh
+        }
+        
+        .main-screen-chat {
+        width:24%
+        }
+        
+        .main-screen-coinflip {
+        width:75%
+        }
+        
+        .main-screen-coinflip__items {
+        max-height:70vh
+        }
+        
+        
+        
+        .main-screen__item-button,.main-screen__item-price {
+        font-size:18px
+        }
+        
+        .main-screen__navigation-items img,.main-screen__items img {
+        height:55px
+        }
+        
+        .menu-item a {
+        font-size:22px
+        }
+        }
+        
+        @media screen and (min-width:3000px) {
+        .chat-ava,.main-screen__navigation-items img,.main-screen__items img {
+        height:70px
+        }
+        
+        .chat-time {
+        font-size:18px
+        }
+        
+        .chat-title {
+        font-size:30px
+        }
+        
+        .inventory {
+        max-width:450px
+        }
+        
+        .main-screen__item-button,.main-screen__item-price {
+        font-size:22px
+        }
+        
+        .main-screen__item-player img {
+        height:80px
+        }
+        
+        .main-screen__item-res {
+        border-radius:50px;
+        height:70px;
+        width:70px
+        }
+        
+        .main-screen__items {
+        width:440px
+        }
+        
+        .main-screen__navigation-crate,.chat-message-name {
+        font-size:24px
+        }
+        
+        .main-screen__navigation-sort-btn,.chat-message,.main-screen__items {
+        font-size:20px
+        }
+        }
+        
+        @media screen and (max-width:1650px) {
+        .chat-ava {
+        height:35px
+        }
+        
+        .chat-time {
+        font-size:10px
+        }
+        
+        .chat-title {
+        font-size:22px
+        }
+        
+        .inventory h2 {
+        font-size:24px
+        }
+        
+        .inventory-item img {
+        height:40%
+        }
+        
+        .inventory-item-subtitle,.chat-online,.menu-item a {
+        font-size:16px
+        }
+        
+        .inventory-item-title,.header__info-profile-name {
+        font-size:18px
+        }
+        
+        .main-screen__item-player img {
+        height:55px
+        }
+        }
+        
+        @media screen and (max-width:1600px) {
+        .deposit-btn svg,.withdraw-btn svg {
+        height:27px
+        }
+        
+        .dropdown-toggle,.inventory-button {
+        font-size:14px
+        }
+        
+        .inventory,.inventory-info {
+        margin-right:10px;
+        max-width:300px
+        }
+        
+        .inventory-info__button {
+        font-size:16px;
+        padding:12px 20px
+        }
+        
+        .inventory-item-wrapper,.inventory-item {
+        height:160px
+        }
+        
+        .inventory__content {
+        height:30%;
+        width:287px
+        }
+        
+        .inventory__items {
+        margin-top:10px;
+        max-height:47vh
+        }
+        
+        .iventory-info__message {
+        font-size:18px;
+        width:100%
+        }
+        
+        
+        
+        .main-screen__navigation-crate {
+        font-size:16px;
+        padding:9px
+        }
+        
+        .main-screen__navigation-icon,.main-screen__navigation-icon img {
+        height:40px
+        }
+        
+        .main-screen__navigation-items img {
+        height:38px
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:12px
+        }
+        }
+        
+        @media screen and (max-width:1440px) {
+        .chat-ava {
+        height:28px
+        }
+        
+        .chat-title {
+        font-size:20px
+        }
+        
+        .dropdown-toggle {
+        padding:6px
+        }
+        
+        .header-info-button {
+        height:45px;
+        width:45px
+        }
+        
+        
+        
+        
+        
+        .inventory-info__button {
+        padding:12px 16px
+        }
+        
+        .inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price {
+        font-size:14px
+        }
+        
+        .inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+        font-size:16px
+        }
+        
+        
+        
+        .main-screen__item-player img {
+        height:45px
+        }
+        
+        .main-screen__item-res img,.main-screen__item-res {
+        height:40px;
+        width:40px
+        }
+        
+        .main-screen__items img {
+        height:38px
+        }
+        
+        .modal-cont {
+        width:50%
+        }
+        
+        
+        
+        .player-nmb img {
+        height:20px
+        }
+        }
+        
+        @media screen and (max-width:1320px) {
+        .chat-ava {
+        height:25px
+        }
+        
+        .chat-items {
+        max-height:52vh
+        }
+        
+        .chat-message,.main-screen__navigation-items,.dropdown-toggle,.inventory-button {
+        font-size:12px
+        }
+        
+        .chat-message-name,.inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+        font-size:14px
+        }
+        
+        .chat-rules {
+        padding:5px
+        }
+        
+        .chat-time {
+        font-size:8px
+        }
+        
+        .cn-fl svg,.dep-f svg {
+        margin-right:2px
+        }
+        
+        .dropdown-path {
+        width:10px
+        }
+        
+        .footer-list {
+        margin-left:302px
+        }
+        
+        .footer-rights,.footer-list a {
+        font-size:10px
+        }
+        
+        .header__info {
+        width:290px
+        }
+        
+        .inventory-info__button {
+        padding:12px 11px
+        }
+        
+        .inventory-item {
+        width:46%
+        }
+        
+        .inventory__content {
+        padding:24px 6px 1px 13px;
+        width:245px
+        }
+        
+        
+        
+        .main-screen__item-button {
+        padding:7px 10px
+        }
+        
+        .main-screen__item-player img {
+        height:40px
+        }
+        
+        .main-screen__item-players span,.iventory-info__message {
+        font-size:16px
+        }
+        
+        .main-screen__item-res img,.main-screen__item-res {
+        height:35px
+        }
+        
+        .main-screen__items img {
+        height:30px
+        }
+        
+        .main-screen__navigation-icon:nth-of-type(1) {
+        margin:0
+        }
+        
+        .main-screen__navigation-items img {
+        height:22px
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:10px;
+        height:auto;
+        padding:5px 10px
+        }
+        
+        
+        
+        .menu-item:nth-of-type(2) {
+        padding:4px 10px 6px
+        }
+        
+        .player-nmb img {
+        height:18px
+        }
+        }
+        
+        @media screen and (max-width:1092px) {
+        .chat-ava {
+        width:25px
+        }
+        
+        .chat-item {
+        flex-direction:row
+        }
+        
+        .chat-online {
+        padding:4px 5px
+        }
+        
+        .chat-online img {
+        height:14px
+        }
+        
+        .closebtn,.closebtn-in {
+        background-color:#1AE9B7;
+        border-radius:5px;
+        color:#000;
+        cursor:pointer;
+        display:block;
+        height:20px;
+        margin-right:5px;
+        padding:0;
+        text-align:center;
+        width:20px
+        }
+        
+        .closebtn-in {
+        position:absolute;
+        right:13px;
+        top:15px
+        }
+        
+        
+        
+        .footer-list,.iventory-info__message svg {
+        margin:0
+        }
+        
+        .header .container {
+        padding:12px 35px
+        }
+        
+        .header-info-button svg {
+        height:25px
+        }
+        
+        .inventory {
+        max-width:100vw
+        }
+        
+        .inventory h2 {
+        font-size:20px
+        }
+        
+        .inventory,.inventory-info {
+        max-width:none
+        }
+        
+        
+        
+        .inventory-button {
+        margin-bottom:0;
+        margin-right:10px;
+        padding:6px 33px;
+        text-align:center
+        }
+        
+        .inventory-button,.dropdown-toggle {
+        font-size:16px;
+        text-align:left;
+        width:auto
+        }
+        
+        .inventory-buttons {
+        height:auto;
+        justify-content:center;
+        width:100%
+        }
+        
+        .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+        font-size:14px
+        }
+        
+        .inventory-info-bot-message,.inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price,.inventory-item-title {
+        font-size:12px
+        }
+        
+        .inventory-info__button {
+        justify-content:center;
+        padding:12px 29px;
+        width:50%
+        }
+        
+        .inventory-info__buttons {
+        width:auto
+        }
+        
+        .inventory-item {
+        margin:0 5px 5px 0;
+        width:31.7%
+        }
+        
+        .inventory-item-wrapper,.inventory-item {
+        height:110px
+        }
+        
+        .inventory-item:nth-of-type(odd) {
+        margin:0 5px 5px 0
+        }
+        
+        .inventory__container {
+        position:relative
+        }
+        
+        .inventory__content {
+        height:80%;
+        padding:24px 15px 1px;
+        width:380px
+        }
+        
+        .iventory-info__message {
+        font-size:14px;
+        height:50px;
+        padding:2px 15px
+        }
+        
+        .main-screen-chat-container {
+        margin:100px auto;
+        width:45%
+        }
+        
+        .main-screen-coinflip {
+        width:90%
+        }
+        
+        .main-screen-content {
+        justify-content:center;
+        width:100%
+        }
+        
+        .main-screen__item {
+        flex-wrap:wrap
+        }
+        
+        .main-screen__item-button {
+        padding:7px 5px
+        }
+        
+        .main-screen__item-player img {
+        height:35px
+        }
+        
+        .main-screen__item-players {
+        flex-direction:column
+        }
+        
+        .main-screen__item-players span {
+        margin-bottom:5px;
+        margin-top:9px
+        }
+        
+        .main-screen__items {
+        flex-wrap:wrap;
+        max-width:125px
+        }
+        
+        .main-screen__navigation {
+        padding:10px
+        }
+        
+        .main-screen__navigation-crate {
+        padding:7px;
+        text-align:center
+        }
+        
+        .main-screen__navigation-items {
+        flex-wrap:wrap;
+        max-width:100px
+        }
+        
+        .main-screen__navigation-sort {
+        flex-wrap:wrap;
+        font-size:12px;
+        max-width:100px
+        }
+        
+        .main-screen__navigation-sort-btn:nth-of-type(1) {
+        margin-bottom:5px
+        }
+        
+        
+        
+        .menu-item p {
+        display:none
+        }
+        
+        .menu-item:nth-of-type(2) {
+        padding:2px 10px 6px
+        }
+        
+        .menu-list {
+        max-width:580px
+        }
+        
+        .modal,.modal-in {
+        -webkit-backdrop-filter:blur(10px);
+        backdrop-filter:blur(10px);
+        bottom:0;
+        left:0;
+        opacity:1;
+        position:fixed;
+        right:0;
+        top:0;
+        transition:.3s;
+        visibility:hidden;
+        width:100vw;
+        z-index:1050
+        }
+        
+        .modal-cont {
+        width:60%
+        }
+        
+        .modal-in {
+        align-items:center;
+        display:flex;
+        justify-content:center
+        }
+        
+        
+        
+        
+        .player-nmb img {
+        height:15px
+        }
+        }
+        
+        @media screen and (max-width:877px) {
+        .cn-fl svg {
+        height:40px;
+        width:30px
+        }
+        
+        .deposit-btn svg,.withdraw-btn svg {
+        height:20px
+        }
+        
+        .header .container {
+        padding:12px 10px
+        }
+        
+        .inventory-info__button {
+        font-size:12px;
+        padding:12px 4px
+        }
+        
+        .inventory-info__buttons,.withdraw-blur {
+        height:35px
+        }
+        
+        .inventory-item:nth-of-type(odd) {
+        margin-right:5px
+        }
+        
+        .inventory__items {
+        justify-content:center
+        }
+        
+        .iventory-info__message,.iventory-info__message svg {
+        height:40px
+        }
+        
+        .menu {
+        height:auto
+        }
+        
+        .menu-item {
+        height:30px;
+        padding:8px
+        }
+        
+        .menu-item svg {
+        height:20px;
+        margin-right:0;
+        width:25px
+        }
+        
+        .modal-cont {
+        width:70%
+        }
+        
+        .modal-f-btn,.modal-s-stat,.modal-s-btn {
+        font-size:14px;
+        padding:10px
+        }
+        
+        .modal-f-content h4 {
+        font-size:14px;
+        line-height:40px
+        }
+        
+        .modal-f-form input {
+        padding:13px
+        }
+        
+        .modal-i-content h2,.modal-f-content h2 {
+        font-size:12px
+        }
+        
+        .modal-i-content p,.modal-f-content h3,.modal-s-content h2 {
+        font-size:14px
+        }
+        
+        .modal-if-btn {
+        padding:8px 40px
+        }
+        
+        .modal-q-content h2,.modal-tos-content h2 {
+        font-size:22px
+        }
+        
+        .modal-q-content p,.modal-q-content span,.modal-tos-content p,.modal-tos-content span {
+        font-size:13px
+        }
+        
+        .modal-q-content span,.modal-tos-content span {
+        margin-bottom:10px;
+        margin-top:15px
+        }
+        
+        .modal-t-logo,.modal-f-logo,.modal-s-logo {
+        height:100px;
+        margin-bottom:25px;
+        margin-top:25px
+        }
+        
+        .withdraw-btn svg,.deposit-btn svg {
+        margin:0
+        }
+        }
+        
+        @media screen and (max-width:720px) {
+        .cn-fl svg {
+        height:35px;
+        margin-bottom:-6px;
+        width:35px
+        }
+        
+        .dropdown-path {
+        width:7px
+        }
+        
+        .footer-rights,.footer-list a {
+        font-size:8px
+        }
+        
+        .inventory h2 {
+        font-size:20px
+        }
+        
+        .inventory-button,.dropdown-toggle,.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol>li {
+        font-size:14px
+        }
+        
+        .inventory-info__button {
+        justify-content:center;
+        margin-bottom:5px
+        }
+        
+        .inventory-info__buttons {
+        height:auto;
+        margin-bottom:0;
+        width:100%
+        }
+        
+        .iventory-info__message {
+        height:auto;
+        padding:10px 7px
+        }
+        
+        .main-screen-chat-container {
+        width:70%
+        }
+        
+        .main-screen-content {
+        justify-content:center;
+        width:90%;
+        width:100%
+        }
+        
+        .main-screen__item,.main-screen__navigation-icons {
+        flex-direction:column
+        }
+        
+        .main-screen__item-players {
+        flex-direction:row;
+        justify-content:center;
+        width:100%
+        }
+        
+        .main-screen__item-players,.main-screen__item-res,.main-screen__items,.main-screen__item-price {
+        margin-bottom:5px
+        }
+        
+        .main-screen__items {
+        flex-wrap:nowrap;
+        max-width:none
+        }
+        
+        .main-screen__navigation {
+        flex-wrap:wrap;
+        justify-content:space-between
+        }
+        
+        .main-screen__navigation-crate,.main-screen__item-buttons {
+        width:100%
+        }
+        
+        .main-screen__navigation-items {
+        max-width:65px
+        }
+        
+        .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+        margin-right:5px
+        }
+        
+        .menu-item {
+        height:auto;
+        margin-right:7px;
+        padding:7px 12px
+        }
+        
+        .menu-item a {
+        font-size:10px;
+        font-weight:400
+        }
+        
+        .menu-item:nth-of-type(2) {
+        padding:2px 7px 6px
+        }
+        
+        .menu-list {
+        justify-content:center
+        }
+        
+        
+        
+        .modal-cm-game-player p {
+        padding:10px 14px
+        }
+        
+        .modal-cm-game-player-ava:nth-of-type(1) {
+        margin-right:3px
+        }
+        
+        .modal-cm-game-player-ava:nth-of-type(2) {
+        margin-left:3px
+        }
+        
+        .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+        height:60px
+        }
+        
+        .modal-cm-info-item img {
+        height:30px
+        }
+        
+        .modal-cm-info-item,.modal-cm-info-bet {
+        font-size:13px
+        }
+        
+        .modal-cont {
+        width:90%
+        }
+        
+        .modal-rps-game-res {
+        padding:20px 7px
+        }
+        
+        .modal-rps>.modal-cont {
+        padding:20px 10px
+        }
+        
+        .openbtn-in {
+        margin-right:7px
+        }
+        
+        .openbtn-in p,.openbtn p {
+        display:none
+        }
+        
+        .openbtn-in,.openbtn {
+        height:auto;
+        padding:5.5px 12px;
+        width:auto
+        }
+        
+        .rps-item {
+        height:35px
+        }
+        
+        main>.container {
+        padding:0
+        }
+        }
+        
+        @media screen and (max-width:470px) {
+        .header__logo {
+        height:35px
+        }
+        
+        .main-screen__navigation {
+        flex-direction:column
+        }
+        
+        .main-screen__navigation-icons {
+        flex-direction:row;
+        margin-bottom:7px
+        }
+        
+        .main-screen__navigation-items {
+        max-width:none
+        }
+        
+        .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+        margin-bottom:7px;
+        margin-right:0
+        }
+        
+        .main-screen__navigation-sort {
+        flex-wrap:nowrap;
+        max-width:none
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:14px
+        }
+        
+        .main-screen__navigation-sort-btn:nth-of-type(1) {
+        margin-bottom:0
+        }
+        
+        .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+        height:40px
+        }
+        }
+        
+        @media screen and (max-width:413px) {
+        .footer-list {
+            margin-left:30px
+            }
+        
+        .inventory-info__button {
+        padding:8px 4px
+        }
+        
+        .inventory__container {
+        width:90%
+        }
+        
+        .inventory__content {
+        height:80%;
+        width:100%
+        }
+        
+        .menu-list {
+        flex-wrap:wrap
+        }
+        .modal-cm-info-item,.modal-cm-info-bet {
+        font-size:10px
+        }
+        
+        .openbtn-in,.openbtn {
+        padding:5px 7px
+        }
+        }
+        @media screen and (min-width:1710px) {
+            .chat-items {
+            max-height:60vh
+            }
+        
+            .chat-item {
+            flex-direction:row
+            }
+        
+            .main-screen-coinflip__items {
+            max-height:62vh
+            }
+        
+            .inventory__content {
+            height:62%
+            }
+        
+            .header .container {
+            padding:12px 26px
+            }
+        }
+        
+        @media screen and (min-width:2200px) {
+        .main-screen-coinflip__items {
+        max-height:65vh
+        }
+        
+        .chat-items {
+        max-height:67vh
+        }
+        
+        .inventory__content {
+        height:60%;
+        width:348px
+        }
+        
+        .inventory__items {
+        max-height:80vh
+        }
+        
+        .inventory-button {
+        font-size:20px;
+        padding:10px;
+        width:auto
+        }
+        
+        .dropdown-toggle {
+        padding:10px 13px
+        }
+        
+        .chat-message-name {
+        font-size:18px
+        }
+        
+        .main-screen-content {
+        width:82%
+        }
+        
+        .header-content {
+        max-width:none
+        }
+        
+        .main-screen__navigation-items img,.main-screen__items img {
+        height:50px
+        }
+        
+        .main-screen__item {
+        padding:16px 30px
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:16px;
+        padding:19px
+        }
+        
+        .inventory-buttons,.inventory-info__buttons {
+        height:auto
+        }
+        
+        .chat-message,.main-screen__item-button,.main-screen__items {
+        font-size:16px
+        }
+        
+        .main-screen__navigation-crate,.main-screen__navigation-price {
+        font-size:20px
+        }
+        }
+        
+        @media screen and (min-width:2600px) {
+        
+        
+        .inventory__items {
+        max-height:92vh
+        }
+        
+        .main-screen-coinflip {
+        width:75%
+        }
+        
+        .main-screen-chat {
+        width:24%
+        }
+        
+        .main-screen__navigation-items img,.main-screen__items img {
+        height:55px
+        }
+        
+        .menu-item a {
+        font-size:22px
+        }
+        
+        .main-screen-coinflip__items {
+        max-height:70vh
+        }
+        
+        .chat-items {
+        max-height:72vh
+        }
+        
+        .main-screen__item-button,.main-screen__item-price {
+        font-size:18px
+        }
+        }
+        
+        @media screen and (min-width:3000px) {
+        .main-screen__navigation-sort-btn,.chat-message,.main-screen__items {
+        font-size:20px
+        }
+        
+        .main-screen__navigation-crate,.chat-message-name {
+        font-size:24px
+        }
+        
+        .main-screen__item-button,.main-screen__item-price {
+        font-size:22px
+        }
+        
+        .chat-time {
+        font-size:18px
+        }
+        
+        .chat-title {
+        font-size:30px
+        }
+        
+        .main-screen__item-player img {
+        height:80px
+        }
+        
+        .main-screen__item-res {
+        border-radius:50px;
+        height:70px;
+        width:70px
+        }
+        
+        .main-screen__items {
+        width:440px
+        }
+        
+        .inventory {
+        max-width:450px
+        }
+        
+        .chat-ava,.main-screen__navigation-items img,.main-screen__items img {
+        height:70px
+        }
+        }
+        
+        @media screen and (max-width:1650px) {
+        .inventory h2 {
+        font-size:24px
+        }
+        
+        .inventory-item img {
+        height:40%
+        }
+        
+        .inventory-item-subtitle,.chat-online,.menu-item a {
+        font-size:16px
+        }
+        
+        .inventory-item-title,.header__info-profile-name {
+        font-size:18px
+        }
+        
+        .chat-ava {
+        height:35px
+        }
+        
+        .chat-title {
+        font-size:22px
+        }
+        
+        .chat-time {
+        font-size:10px
+        }
+        
+        .main-screen__item-player img {
+        height:55px
+        }
+        }
+        
+        @media screen and (max-width:1600px) {
+        .main-screen-chat {
+        width:25%
+        }
+        
+        .inventory__content {
+        height:30%;
+        width:287px
+        }
+        
+        .main-screen__navigation-crate {
+        font-size:16px;
+        padding:9px
+        }
+        
+        .main-screen__navigation-icon,.main-screen__navigation-icon img {
+        height:40px
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:12px
+        }
+        
+        .main-screen__navigation-items img {
+        height:38px
+        }
+        
+        .dropdown-toggle,.inventory-button {
+        font-size:14px
+        }
+        
+        .inventory-item-wrapper,.inventory-item {
+        height:160px
+        }
+        
+        .inventory,.inventory-info {
+        margin-right:10px;
+        max-width:300px
+        }
+        
+        .inventory-info__button {
+        font-size:16px;
+        padding:12px 20px
+        }
+        
+        .deposit-btn svg,.withdraw-btn svg {
+        height:27px
+        }
+        
+        .iventory-info__message {
+        font-size:18px;
+        width:100%
+        }
+        
+        .inventory__items {
+        margin-top:10px;
+        max-height:47vh
+        }
+        }
+        
+        @media screen and (max-width:1440px) {
+        .modal-cont {
+        width:50%
+        }
+        
+        
+        
+        
+        
+        .inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price {
+        font-size:14px
+        }
+        
+        .inventory-button {
+        padding:4px
+        }
+        
+        
+        
+        .inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+        font-size:16px
+        }
+        
+        .inventory-info__button {
+        padding:12px 16px
+        }
+        
+        .main-screen__item-player img {
+        height:45px
+        }
+        
+        .player-nmb img {
+        height:20px
+        }
+        
+        .main-screen__item-res img,.main-screen__item-res {
+        height:40px;
+        width:40px
+        }
+        
+        .main-screen__items img {
+        height:38px
+        }
+        
+        .chat-ava {
+        height:28px
+        }
+        
+        .chat-title {
+        font-size:20px
+        }
+        
+        
+        
+        .header-info-button {
+        height:45px;
+        width:45px
+        }
+        }
+        
+        @media screen and (max-width:1320px) {
+        .main-screen__items img {
+        height:30px
+        }
+        
+        .main-screen__item-res img,.main-screen__item-res {
+        height:35px
+        }
+        
+        .main-screen__item-player img {
+        height:40px
+        }
+        
+        .player-nmb img {
+        height:18px
+        }
+        
+        .chat-ava {
+        height:25px
+        }
+        
+        .chat-time {
+        font-size:8px
+        }
+        
+        .chat-rules {
+        padding:5px
+        }
+        
+        
+        
+        .menu-item,.openbtn-in, .openbtn{
+        padding:7px 10px 4px
+        }
+        
+        
+        
+        .main-screen__navigation-sort-btn {
+        font-size:10px;
+        height:auto;
+        padding:5px 10px
+        }
+        
+        .main-screen__item-button {
+        padding:7px 10px
+        }
+        
+        .chat-items {
+        max-height:52vh
+        }
+        
+        .footer-rights,.footer-list a {
+        font-size:10px
+        }
+        
+        .main-screen__navigation-icon:nth-of-type(1) {
+        margin:0
+        }
+        
+        .main-screen__navigation-items img {
+        height:22px
+        }
+        
+        .inventory-item {
+        width:46%
+        }
+        
+        .inventory__content {
+        padding:13px;
+        width:245px
+        }
+        
+        .dropdown-path {
+        width:10px
+        }
+        
+        .inventory-info__button {
+        padding:12px 11px
+        }
+        
+        .footer-list {
+        margin-left:302px
+        }
+        
+        .header__info {
+        width:290px
+        }
+        
+        .chat-message,.main-screen__navigation-items,.dropdown-toggle,.inventory-button {
+        font-size:12px
+        }
+        
+        .main-screen__item-players span,.iventory-info__message {
+        font-size:16px
+        }
+        
+        .chat-message-name,.inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+        font-size:14px
+        }
+        }
+        
+        @media screen and (max-width:1092px) {
+        .header__logo {
+        height:40px
+        }
+        
+        .menu-item p {
+        display:none
+        }
+        
+        
+        
+        .inventory h2 {
+        font-size:20px
+        }
+        
+        .iventory-info__message {
+        font-size:14px;
+        height:50px;
+        padding:2px 15px
+        }
+        
+        .inventory__content {
+        height:auto;
+        padding:24px 15px 1px;
+        width:380px
+        }
+        
+        .inventory-info__button {
+        justify-content:center;
+        padding:12px 29px;
+        width:100%
+        }
+        
+        .inventory-item {
+        margin:0 5px 5px 0;
+        width:31.7%
+        }
+        
+        .inventory-item:nth-of-type(odd) {
+        margin:0 5px 5px 0
+        }
+        
+        .main-screen__item-players {
+        flex-direction:column
+        }
+        
+        .main-screen__navigation-sort {
+        flex-wrap:wrap;
+        font-size:12px;
+        max-width:100px
+        }
+        
+        .main-screen__navigation-sort-btn:nth-of-type(1) {
+        margin-bottom:5px
+        }
+        
+        .main-screen__navigation-items {
+        flex-wrap:wrap;
+        max-width:100px
+        }
+        
+        .main-screen__items {
+        flex-wrap:wrap;
+        max-width:125px
+        }
+        
+        .main-screen__item {
+        flex-wrap:wrap
+        }
+        
+        .main-screen__item-player img {
+        height:35px
+        }
+        
+        .player-nmb img {
+        height:15px
+        }
+        
+        .main-screen__item-players span {
+        margin-bottom:5px;
+        margin-top:9px
+        }
+        
+        .main-screen__navigation-crate {
+        padding:7px;
+        text-align:center
+        }
+        
+        .main-screen__navigation {
+        padding:10px
+        }
+        
+        .main-screen__item-button {
+        padding:7px 5px
+        }
+        
+        .chat-online {
+        padding:4px 5px
+        }
+        
+        .chat-online img {
+        height:14px
+        }
+        
+        .closebtn,.closebtn-in {
+        background-color:#1AE9B7;
+        border-radius:5px;
+        color:#000;
+        cursor:pointer;
+        display:block;
+        height:20px;
+        margin-right:5px;
+        padding:2px;
+        text-align:center;
+        width:20px
+        }
+        
+        .closebtn-in {
+        position:absolute;
+        right:13px;
+        top:15px
+        }
+        
+        .inventory__container {
+        position:relative
+        }
+        
+        
+        
+        
+        .menu-list {
+        max-width:580px
+        }
+        
+        .main-screen-content {
+        justify-content:center;
+        width:100%
+        }
+        
+        .chat-item {
+        flex-direction:row
+        }
+        
+        .chat-ava {
+        width:25px
+        }
+        
+        .main-screen-coinflip {
+        width:90%
+        }
+        
+        .inventory,.inventory-info {
+        max-width:none
+        }
+        
+        .inventory-info__buttons {
+        width:auto
+        }
+        
+        .inventory-item-wrapper,.inventory-item {
+        height:110px
+        }
+        
+        .inventory-button,.dropdown-toggle {
+        font-size:16px;
+        text-align:left;
+        width:auto
+        }
+        
+        .header .container {
+        padding:12px 35px
+        }
+        
+        .inventory {
+        max-width:100vw
+        }
+        
+        .modal-in {
+        align-items:center;
+        display:flex;
+        justify-content:center
+        }
+        
+        .modal,.modal-in {
+        -webkit-backdrop-filter:blur(10px);
+        backdrop-filter:blur(10px);
+        bottom:0;
+        left:0;
+        opacity:1;
+        position:fixed;
+        right:0;
+        top:0;
+        transition:.3s;
+        visibility:hidden;
+        width:100vw;
+        z-index:1050
+        }
+        
+        .modal-cont {
+        width:60%
+        }
+        
+        .main-screen-chat-container {
+        margin:100px auto;
+        width:45%
+        }
+        
+        .header-info-button svg {
+        height:25px
+        }
+        
+        .inventory-buttons {
+        height:auto;
+        justify-content:center;
+        width:100%
+        }
+        
+        .inventory-button {
+        margin-bottom:0;
+        margin-right:10px;
+        padding:6px 33px;
+        text-align:center
+        }
+        
+        .footer-list,.iventory-info__message svg {
+        margin:0
+        }
+        
+        
+        
+        .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+        font-size:14px
+        }
+        
+        .inventory-info-bot-message,.inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price,.inventory-item-title {
+        font-size:12px
+        }
+        
+        
+        }
+        
+        @media screen and (max-width:877px) {
+        .modal-cont {
+        width:70%
+        }
+        
+        .modal-q-content p,.modal-q-content span,.modal-tos-content p,.modal-tos-content span {
+        font-size:16px
+        }
+        
+        .modal-q-content span,.modal-tos-content span {
+        margin-bottom:10px;
+        margin-top:15px
+        }
+        
+        .modal-q-content h2,.modal-tos-content h2 {
+        font-size:22px
+        }
+        
+        .inventory-info__button {
+        font-size:12px;
+        padding:12px 4px
+        }
+        
+        .deposit-btn svg,.withdraw-btn svg {
+        height:20px
+        }
+        
+        .inventory-item:nth-of-type(odd) {
+        margin-right:5px
+        }
+        
+        .withdraw-btn svg,.deposit-btn svg {
+        margin:0
+        }
+        
+        .inventory__items {
+        justify-content:center
+        }
+        
+        .menu {
+        height:auto
+        }
+        
+        .header .container {
+        padding:12px 10px
+        }
+        
+        .menu-item {
+        height:30px;
+        padding:8px
+        }
+        
+        .menu-item svg {
+        height:20px;
+        margin-right:0;
+        width:25px
+        }
+        
+        .cn-fl svg {
+        height:40px;
+        width:30px
+        }
+        
+        .modal-i-content p,.modal-f-content h3,.modal-s-content h2 {
+        font-size:14px
+        }
+        
+        .modal-i-content h2,.modal-f-content h2 {
+        font-size:12px
+        }
+        
+        .modal-if-btn {
+        padding:8px 40px
+        }
+        
+        .modal-t-logo,.modal-f-logo,.modal-s-logo {
+        height:100px;
+        margin-bottom:25px;
+        margin-top:25px
+        }
+        
+        .modal-f-content h4 {
+        font-size:14px;
+        line-height:40px
+        }
+        
+        .modal-f-form input {
+        padding:13px
+        }
+        
+        .modal-f-btn,.modal-s-stat,.modal-s-btn {
+        font-size:14px;
+        padding:10px
+        }
+        
+        .inventory-info__buttons,.withdraw-blur {
+        height:35px
+        }
+        
+        .iventory-info__message,.iventory-info__message svg {
+        height:40px
+        }
+        }
+        
+        @media screen and (max-width:720px) {
+        .main-screen__item-players {
+        flex-direction:row;
+        justify-content:center;
+        width:100%
+        }
+        
+        .main-screen__items {
+        flex-wrap:nowrap;
+        max-width:none
+        }
+        
+        .main-screen-chat-container {
+        width:70%
+        }
+        
+        main>.container {
+        padding:0
+        }
+        
+        
+        
+        .cn-fl svg {
+        height:35px;
+        margin-bottom:-6px;
+        width:35px
+        }
+        
+        .menu-item {
+        height:auto;
+        margin-right:7px;
+        padding:7px 12px
+        }
+        
+        .openbtn-in p,.openbtn p {
+        display:none
+        }
+        
+        .openbtn-in,.openbtn {
+        height:auto;
+        padding:5.5px 12px;
+        width:auto
+        }
+        
+        .modal-cm-game-player-ava:nth-of-type(2) {
+        margin-left:3px
+        }
+        
+        .modal-cm-game-player-ava:nth-of-type(1) {
+        margin-right:3px
+        }
+        
+        .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+        height:60px
+        }
+        
+        .modal-cm-info-item img {
+        height:30px
+        }
+        
+        .modal-cont {
+        width:90%
+        }
+        
+        .modal-cm-info-item,.modal-cm-info-bet {
+        font-size:13px
+        }
+        
+        .inventory-button,.dropdown-toggle {
+        font-size:14px
+        }
+        
+        .dropdown-path {
+        width:7px
+        }
+        
+        .inventory-info__buttons {
+        height:auto;
+        margin-bottom:0;
+        width:100%
+        }
+        
+        .inventory-info__button {
+        justify-content:center;
+        margin-bottom:5px
+        }
+        
+        .iventory-info__message {
+        height:auto;
+        padding:10px 7px
+        }
+        
+        .main-screen-content {
+        width:90%;
+        width:100%
+        }
+        
+        .main-screen__item-players,.main-screen__item-res,.main-screen__items,.main-screen__item-price {
+        margin-bottom:5px
+        }
+        
+        .main-screen__navigation {
+        flex-wrap:wrap;
+        justify-content:space-between
+        }
+        
+        .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+        margin-right:5px
+        }
+        
+        .main-screen__navigation-items {
+        max-width:65px
+        }
+        
+        .inventory h2 {
+        font-size:20px
+        }
+        
+        .menu-list {
+        justify-content:center
+        }
+        
+        .footer-rights,.footer-list a {
+        font-size:8px
+        }
+        
+        .menu-item a {
+        font-size:10px;
+        font-weight:400
+        }
+        
+        .openbtn-in {
+        margin-right:7px
+        }
+        
+        .main-screen__navigation-crate,.main-screen__item-buttons {
+        width:100%
+        }
+        
+        .main-screen__item,.main-screen__navigation-icons {
+        flex-direction:column
+        }
+        }
+        
+        @media screen and (max-width:470px) {
+        .main-screen__navigation {
+        flex-direction:column
+        }
+        
+        .main-screen__navigation-icons {
+        flex-direction:row;
+        margin-bottom:7px
+        }
+        
+        .main-screen__navigation-sort-btn:nth-of-type(1) {
+        margin-bottom:0
+        }
+        
+        .main-screen__navigation-sort {
+        flex-wrap:nowrap;
+        max-width:none
+        }
+        
+        .main-screen__navigation-sort-btn {
+        font-size:14px
+        }
+        
+        .main-screen__navigation-items {
+        max-width:none
+        }
+        
+        .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+        margin-bottom:7px;
+        margin-right:0
+        }
+        }
+        
+        @media screen and (max-width:413px) {
+        .modal-cm-info-item,.modal-cm-info-bet {
+        font-size:10px
+        }
+        
+        .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+        height:40px
+        }
+        .openbtn-in,.openbtn {
+        padding:5px 7px
+        }
+        .inventory__content {
+        height:40%;
+        width:100%
+        }
+        
+        .inventory-info__button {
+        padding:8px 4px
+        }
+        
+        .menu-list {
+        flex-wrap:wrap
+        }
+        
+        .footer-list {
+        margin-left:30px
+        }
+        
+        .inventory__container {
+        width:90%
+        }
+        }  
+        @media screen and (max-width:1600px) {
+            .main-screen-chat {
+            width:25%
+            }
+            
+            .inventory__content {
+            height:30%;
+            width:287px
+            }
+            
+            .main-screen__navigation-crate {
+            font-size:16px;
+            padding:9px
+            }
+            
+            .main-screen__navigation-icon,.main-screen__navigation-icon img {
+            height:40px
+            }
+            
+            .main-screen__navigation-sort-btn {
+            font-size:12px
+            }
+            
+            .main-screen__navigation-items img {
+            height:38px
+            }
+            
+            .dropdown-toggle,.inventory-button {
+            font-size:14px
+            }
+            
+            .inventory-item-wrapper,.inventory-item {
+            height:160px
+            }
+            
+            .inventory,.inventory-info {
+            margin-right:10px;
+            max-width:300px
+            }
+            
+            .inventory-info__button {
+            font-size:16px;
+            padding:12px 20px
+            }
+            
+            .deposit-btn svg,.withdraw-btn svg {
+            height:27px
+            }
+            
+            .iventory-info__message {
+            font-size:18px;
+            width:100%
+            }
+            
+            .inventory__items {
+            margin-top:10px;
+            max-height:47vh
+            }
+            }
+            @media screen and (max-width:1320px) {
+            .main-screen__items img {
+            height:30px
+            }
+            
+            .main-screen__item-res img,.main-screen__item-res {
+            height:35px
+            }
+            
+            .main-screen__item-player img {
+            height:40px
+            }
+            
+            .player-nmb img {
+            height:18px
+            }
+            
+            .chat-ava {
+            height:25px
+            }
+            
+            .chat-time {
+            font-size:8px
+            }
+            
+            .chat-rules {
+            padding:5px
+            }
+            
+            
+            
+            
+            .menu-item:nth-of-type(2) {
+            padding:4px 10px 6px
+            }
+            
+            .main-screen__navigation-sort-btn {
+            font-size:10px;
+            height:auto;
+            padding:5px 10px
+            }
+            
+            .main-screen__item-button {
+            padding:7px 10px
+            }
+            
+            .chat-items {
+            max-height:52vh
+            }
+            
+            .footer-rights,.footer-list a {
+            font-size:10px
+            }
+            
+            .main-screen__navigation-icon:nth-of-type(1) {
+            margin:0
+            }
+            
+            .main-screen__navigation-items img {
+            height:22px
+            }
+            
+            .inventory-item {
+            width:46%
+            }
+            
+            .inventory__content {
+            padding:24px 6px 1px 13px;
+            width:245px
+            }
+            
+            .dropdown-path {
+            width:10px
+            }
+            
+            .inventory-info__button {
+            padding:12px 11px
+            }
+            
+            .footer-list {
+            margin-left:302px
+            }
+            
+            .header__info {
+            width:290px
+            }
+            
+            .chat-message,.main-screen__navigation-items,.dropdown-toggle,.inventory-button {
+            font-size:12px
+            }
+            
+            .main-screen__item-players span,.iventory-info__message {
+            font-size:16px
+            }
+            
+            .chat-message-name,.inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+            font-size:14px
+            }
+            }
+            @media screen and (max-width:1092px) {
+                .header__logo,.header-info-button,.header__info-profile-icon img,.header__info-profile-icon {
+                height:40px
+                }
+                
+                .profile-bets-content {
+                height:42vh
+                }
+                
+                .profile-menu,.profile-menu-content {
+                width:100%
+                }
+                
+                .main-screen-content-items {
+                flex-direction:column;
+                width:95%
+                }
+                
+                .modal-q-content,.modal-tos-content {
+                padding-right:20px
+                }
+                
+                .menu-item p {
+                display:none
+                }
+                
+                .cn-fl svg {
+                margin-top:7px
+                }
+                
+                .inventory h2 {
+                font-size:20px
+                }
+                
+                .iventory-info__message {
+                font-size:14px;
+                height:50px;
+                padding:2px 15px
+                }
+                
+                .inventory__content {
+                height:45%;
+                padding:24px 15px 1px;
+                width:380px
+                }
+                
+                .inventory-info__button {
+                justify-content:center;
+                padding:12px 29px;
+                width:50%
+                }
+                
+                .inventory-item {
+                margin:0 5px 5px 0;
+                width:31.7%
+                }
+                
+                .inventory-item:nth-of-type(odd) {
+                margin:0 5px 5px 0
+                }
+                
+                .chat-online {
+                padding:4px 5px
+                }
+                
+                .chat-online img {
+                height:14px
+                }
+                
+                .closebtn,.closebtn-in {
+                background-color:#1AE9B7;
+                border-radius:5px;
+                color:#000;
+                cursor:pointer;
+                display:block;
+                height:20px;
+                margin-right:5px;
+                padding:2px;
+                text-align:center;
+                width:20px
+                }
+                
+                .closebtn-in {
+                position:absolute;
+                right:13px;
+                top:15px
+                }
+                
+                .inventory__container {
+                position:relative
+                }
+                
+                
+                
+                
+                .menu-list {
+                max-width:580px
+                }
+                
+                .main-screen-content {
+                justify-content:center;
+                width:100%
+                }
+                
+                .chat-item {
+                flex-direction:row
+                }
+                
+                .chat-ava {
+                width:25px
+                }
+                
+                .inventory,.inventory-info {
+                max-width:none
+                }
+                
+                .inventory-info__buttons {
+                width:auto
+                }
+                
+                .inventory-item-wrapper,.inventory-item {
+                height:110px
+                }
+                
+                .inventory-button,.dropdown-toggle {
+                font-size:16px;
+                text-align:left;
+                width:auto
+                }
+                
+                .header .container {
+                padding:12px 35px
+                }
+                
+                .inventory {
+                max-width:100vw
+                }
+                
+                .modal-in {
+                align-items:center;
+                display:flex;
+                justify-content:center
+                }
+                
+                .modal,.modal-in {
+                -webkit-backdrop-filter:blur(10px);
+                backdrop-filter:blur(10px);
+                bottom:0;
+                left:0;
+                opacity:1;
+                position:fixed;
+                right:0;
+                top:0;
+                transition:.3s;
+                visibility:hidden;
+                width:100vw;
+                z-index:1050
+                }
+                
+                .modal-cont {
+                width:60%
+                }
+                
+                .main-screen-chat-container {
+                margin:100px auto;
+                width:45%
+                }
+                
+                .header-info-button svg {
+                height:25px
+                }
+                
+                
+                .inventory-buttons {
+                height:auto;
+                justify-content:center;
+                width:100%
+                }
+                
+                .inventory-button {
+                margin-bottom:0;
+                margin-right:10px;
+                padding:6px 33px;
+                text-align:center
+                }
+                
+                .footer-list,.iventory-info__message svg {
+                margin:0
+                }
+                
+                .inventory,.inventory-info,.inventory__content,.deposit-btn,.menu-item svg {
+                margin-right:0
+                }
+                
+                .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+                font-size:14px
+                }
+                
+                .inventory-info-bot-message,.inventory-item-subtitle,.chat-online,.menu-item a,.inventory-item-title {
+                font-size:12px
+                }
+                
+                }
+            @media screen and (max-width:1092px) {
+            .menu-item p {
+            display:none
+            }
+            
+            
+            
+            .inventory h2 {
+            font-size:20px
+            }
+            
+            .iventory-info__message {
+            font-size:14px;
+            height:50px;
+            padding:2px 15px
+            }
+            
+            .inventory__content {
+            height:45%;
+            padding:24px 15px 1px;
+            width:380px
+            }
+            
+            .inventory-info__button {
+            justify-content:center;
+            padding:12px 29px;
+            width:50%
+            }
+            
+            .inventory-item {
+            margin:0 5px 5px 0;
+            width:31.7%
+            }
+            
+            .inventory-item:nth-of-type(odd) {
+            margin:0 5px 5px 0
+            }
+            
+            .main-screen__item-players {
+            flex-direction:column
+            }
+            
+            .main-screen__navigation-sort {
+            flex-wrap:wrap;
+            font-size:12px;
+            max-width:100px
+            }
+            
+            .main-screen__navigation-sort-btn:nth-of-type(1) {
+            margin-bottom:5px
+            }
+            
+            .main-screen__navigation-items {
+            flex-wrap:wrap;
+            max-width:100px
+            }
+            
+            .main-screen__items {
+            flex-wrap:wrap;
+            max-width:125px
+            }
+            
+            .main-screen__item {
+            flex-wrap:wrap
+            }
+            
+            .main-screen__item-player img {
+            height:35px
+            }
+            
+            .player-nmb img {
+            height:15px
+            }
+            
+            .main-screen__item-players span {
+            margin-bottom:5px;
+            margin-top:9px
+            }
+            
+            .main-screen__navigation-crate {
+            padding:7px;
+            text-align:center
+            }
+            
+            .main-screen__navigation {
+            padding:10px
+            }
+            
+            .main-screen__item-button {
+            padding:7px 5px
+            }
+            
+            .chat-online {
+            padding:4px 5px
+            }
+            
+            .chat-online img {
+            height:14px
+            }
+            
+            .closebtn,.closebtn-in {
+            background-color:#1AE9B7;
+            border-radius:5px;
+            color:#000;
+            cursor:pointer;
+            display:block;
+            height:20px;
+            margin-right:5px;
+            padding:2px;
+            text-align:center;
+            width:20px
+            }
+            
+            .closebtn-in {
+            position:absolute;
+            right:13px;
+            top:15px
+            }
+            
+            .inventory__container {
+            position:relative
+            }
+            
+            
+            
+            
+            
+            .menu-list {
+            max-width:580px
+            }
+            
+            .main-screen-content {
+            width:100%
+            }
+            
+            .chat-item {
+            flex-direction:row
+            }
+            
+            .chat-ava {
+            width:25px
+            }
+            
+            .main-screen-coinflip {
+            width:90%
+            }
+            
+            .inventory,.inventory-info {
+            max-width:none
+            }
+            
+            .inventory-info__buttons {
+            width:auto
+            }
+            
+            .inventory-item-wrapper,.inventory-item {
+            height:110px
+            }
+            
+            .inventory-button,.dropdown-toggle {
+            font-size:16px;
+            text-align:left;
+            width:auto
+            }
+            
+            .header .container {
+            padding:12px 35px
+            }
+            
+            .inventory {
+            max-width:100vw
+            }
+            
+            .modal-in {
+            align-items:center;
+            display:flex;
+            justify-content:center
+            }
+            
+            .modal,.modal-in {
+            -webkit-backdrop-filter:blur(10px);
+            backdrop-filter:blur(10px);
+            bottom:0;
+            left:0;
+            opacity:1;
+            position:fixed;
+            right:0;
+            top:0;
+            transition:.3s;
+            visibility:hidden;
+            width:100vw;
+            z-index:1050
+            }
+            
+            .modal-cont {
+            width:60%
+            }
+            
+            .main-screen-chat-container {
+            margin:100px auto;
+            width:45%
+            }
+            
+            .header__logo,.header-info-button,.header__info-profile-icon img,.header__info-profile-icon {
+            height:40px;
+            width:40px
+            }
+            
+            .header-info-button svg {
+            height:25px
+            }
+            
+            
+            .inventory-buttons {
+            height:auto;
+            justify-content:center;
+            width:100%
+            }
+            
+            .inventory-button {
+            margin-bottom:0;
+            margin-right:10px;
+            padding:6px 33px;
+            text-align:center
+            }
+            
+            .footer-list,.iventory-info__message svg {
+            margin:0
+            }
+            
+            
+            
+            .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+            font-size:14px
+            }
+            
+            .inventory-info-bot-message,.inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price,.inventory-item-title {
+            font-size:12px
+            }
+            
+            }
+            @media screen and (max-width:1092px) {
+                .profile-bets-content {
+                height:42vh
+                }
+                
+                .profile-menu,.profile-menu-content {
+                width:100%
+                }
+                
+                .main-screen-content-items {
+                flex-direction:column;
+                width:95%
+                }
+                
+                .modal-q-content,.modal-tos-content {
+                padding-right:20px
+                }
+                
+                .menu-item p {
+                display:none
+                }
+                
+                
+                
+                .inventory h2 {
+                font-size:20px
+                }
+                
+                .iventory-info__message {
+                font-size:14px;
+                height:50px;
+                padding:2px 15px
+                }
+                
+                .inventory__content {
+                height:45%;
+                padding:24px 15px 1px;
+                width:380px
+                }
+                
+                .inventory-info__button {
+                justify-content:center;
+                padding:12px 29px;
+                width:50%
+                }
+                
+                .inventory-item {
+                margin:0 5px 5px 0;
+                width:31.7%
+                }
+                
+                .inventory-item:nth-of-type(odd) {
+                margin:0 5px 5px 0
+                }
+                
+                .chat-online {
+                padding:4px 5px
+                }
+                
+                .chat-online img {
+                height:14px
+                }
+                
+                .closebtn,.closebtn-in {
+                background-color:#1AE9B7;
+                border-radius:5px;
+                color:#000;
+                cursor:pointer;
+                display:block;
+                height:20px;
+                margin-right:5px;
+                padding:2px;
+                text-align:center;
+                width:20px
+                }
+                
+                .closebtn-in {
+                position:absolute;
+                right:13px;
+                top:15px
+                }
+                
+                .inventory__container {
+                position:relative
+                }
+                
+                .openbtn,.openbtn-in {
+                align-items:center;
+                background:#1AE9B7;
+                border-radius:7.11389px;
+                bottom:60px;
+                box-shadow:0 7.11389px 7.11389px rgba(0,0,0,0.25),inset 0 7.11389px 7.11389px rgba(255,255,255,0.84);
+                color:#000;
+                display:flex;
+                font-size:12px;
+                font-weight:500;
+                height:30px;
+                padding:5px;
+                right:6px;
+                text-align:center
+                }
+                
+                
+                
+                .menu-list {
+                max-width:580px
+                }
+                
+                .main-screen-content {
+                justify-content:center;
+                width:100%
+                }
+                
+                .chat-item {
+                flex-direction:row
+                }
+                
+                .chat-ava {
+                width:25px
+                }
+                
+                .inventory,.inventory-info {
+                max-width:none
+                }
+                
+                .inventory-info__buttons {
+                width:auto
+                }
+                
+                .inventory-item-wrapper,.inventory-item {
+                height:110px
+                }
+                
+                .inventory-button,.dropdown-toggle {
+                font-size:16px;
+                text-align:left;
+                width:auto
+                }
+                
+                .header .container {
+                padding:12px 35px
+                }
+                
+                .inventory {
+                max-width:100vw
+                }
+                
+                .modal-in {
+                align-items:center;
+                display:flex;
+                justify-content:center
+                }
+                
+                .modal,.modal-in {
+                -webkit-backdrop-filter:blur(10px);
+                backdrop-filter:blur(10px);
+                bottom:0;
+                left:0;
+                opacity:1;
+                position:fixed;
+                right:0;
+                top:0;
+                transition:.3s;
+                visibility:hidden;
+                width:100vw;
+                z-index:1050
+                }
+                
+                .modal-cont {
+                width:60%
+                }
+                
+                .main-screen-chat-container {
+                margin:100px auto;
+                width:45%
+                }
+                
+                .header__logo,.header-info-button,.header__info-profile-icon img,.header__info-profile-icon {
+                height:40px
+                }
+                
+                .header-info-button svg {
+                height:25px
+                }
+                
+                .inventory-buttons {
+                height:auto;
+                justify-content:center;
+                width:100%
+                }
+                
+                .inventory-button {
+                margin-bottom:0;
+                margin-right:10px;
+                padding:6px 33px;
+                text-align:center
+                }
+                
+                .footer-list,.iventory-info__message svg {
+                margin:0
+                }
+                
+                
+                
+                .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+                font-size:14px
+                }
+                
+                
+                }
+            @media screen and (max-width:720px) {
+            .main-screen__item-players {
+            flex-direction:row;
+            justify-content:center;
+            width:100%
+            }
+            
+            .main-screen__items {
+            flex-wrap:nowrap;
+            max-width:none
+            }
+            
+            .main-screen-chat-container {
+            width:70%
+            }
+            
+            main>.container {
+            padding:0
+            }
+            
+            
+            
+            .cn-fl svg {
+            height:35px;
+            margin-bottom:-6px;
+            width:35px
+            }
+            
+            .menu-item {
+            height:auto;
+            margin-right:7px;
+            padding:7px 12px
+            }
+            
+            .openbtn-in p,.openbtn p {
+            display:none
+            }
+            
+            .openbtn-in,.openbtn {
+            height:auto;
+            padding:5.5px 12px;
+            width:auto
+            }
+            
+            .modal-cm-game-player-ava:nth-of-type(2) {
+            margin-left:3px
+            }
+            
+            .modal-cm-game-player-ava:nth-of-type(1) {
+            margin-right:3px
+            }
+            
+            .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+            height:60px
+            }
+            
+            .modal-cm-info-item img {
+            height:30px
+            }
+            
+            .modal-cont {
+            width:90%
+            }
+            
+            .modal-cm-info-item,.modal-cm-info-bet {
+            font-size:13px
+            }
+            
+            .inventory-button,.dropdown-toggle {
+            font-size:14px
+            }
+            
+            .dropdown-path {
+            width:7px
+            }
+            
+            .inventory-info__buttons {
+            height:auto;
+            margin-bottom:0;
+            width:100%
+            }
+            
+            .inventory-info__button {
+            justify-content:center;
+            margin-bottom:5px
+            }
+            
+            .iventory-info__message {
+            height:auto;
+            padding:10px 7px
+            }
+            .main-screen__item-players,.main-screen__item-res,.main-screen__items,.main-screen__item-price {
+            margin-bottom:5px
+            }
+            
+            .main-screen__navigation {
+            flex-wrap:wrap;
+            justify-content:space-between
+            }
+            
+            .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+            margin-right:5px
+            }
+            
+            .main-screen__navigation-items {
+            max-width:65px
+            }
+            
+            .inventory h2 {
+            font-size:20px
+            }
+            
+            .menu-list {
+            justify-content:center
+            }
+            
+            .footer-rights,.footer-list a {
+            font-size:8px
+            }
+            
+            .menu-item a {
+            font-size:10px;
+            font-weight:400
+            }
+            
+            .openbtn-in {
+            margin-right:7px
+            }
+            
+            .main-screen__navigation-crate,.main-screen__item-buttons {
+            width:100%
+            }
+            
+            .main-screen__item,.main-screen__navigation-icons {
+            flex-direction:column
+            }
+            }      
+
+            @media screen and (min-width:1710px) {
+                .chat-items {
+                max-height:60vh
+                }
+                
+                .chat-item {
+                flex-direction:row
+                }
+                
+                .main-screen-coinflip__items {
+                max-height:62vh
+                }
+                
+                .inventory__content {
+                height:62%
+                }
+                
+                .header .container {
+                padding:12px 26px
+                }
+                }
+                
+                @media screen and (min-width:2200px) {
+                .main-screen-coinflip__items {
+                max-height:65vh
+                }
+                
+                .chat-items {
+                max-height:67vh
+                }
+                
+                .inventory__content {
+                height:60%;
+                width:348px
+                }
+                
+                .inventory__items {
+                max-height:80vh
+                }
+                
+                .inventory-button {
+                font-size:20px;
+                padding:10px;
+                width:auto
+                }
+                
+                .dropdown-toggle {
+                padding:10px 13px
+                }
+                
+                .chat-message-name {
+                font-size:18px
+                }
+                
+                .header-content {
+                max-width:none
+                }
+                
+                .main-screen__navigation-items img,.main-screen__items img {
+                height:50px
+                }
+                
+                .main-screen__item {
+                padding:16px 30px
+                }
+                
+                .main-screen__navigation-sort-btn {
+                font-size:16px;
+                padding:19px
+                }
+                
+                .inventory-buttons,.inventory-info__buttons {
+                height:auto
+                }
+                
+                .chat-message,.main-screen__item-button,.main-screen__items {
+                font-size:16px
+                }
+                
+                .main-screen__navigation-crate,.main-screen__navigation-price {
+                font-size:20px
+                }
+                }
+                
+                @media screen and (max-width:1320px) {
+                .main-screen__items img {
+                height:30px
+                }
+                
+                .main-screen__item-res img,.main-screen__item-res {
+                height:35px
+                }
+                
+                .main-screen__item-player img {
+                height:40px
+                }
+                
+                .player-nmb img {
+                height:18px
+                }
+                
+                .chat-ava {
+                height:25px
+                }
+                
+                .chat-time {
+                font-size:8px
+                }
+                
+                .chat-rules {
+                padding:5px
+                }
+                
+                .main-screen-chat-container {
+                padding:15px
+                }
+                
+                
+                .main-screen__navigation-sort-btn {
+                font-size:10px;
+                height:auto;
+                padding:5px 10px
+                }
+                
+                .main-screen__item-button {
+                padding:7px 10px
+                }
+                
+                .chat-items {
+                max-height:52vh
+                }
+                
+                .footer-rights,.footer-list a {
+                font-size:10px
+                }
+                
+                .main-screen__navigation-icon:nth-of-type(1) {
+                margin:0
+                }
+                
+                .main-screen__navigation-items img {
+                height:22px
+                }
+                
+                .inventory-item {
+                width:46%
+                }
+                
+                .inventory__content {
+                padding:24px 6px 1px 13px;
+                width:245px
+                }
+                
+                .dropdown-path {
+                width:10px
+                }
+                
+                .inventory-info__button {
+                padding:12px 11px
+                }
+                
+                .footer-list {
+                margin-left:302px
+                }
+                
+                .header__info {
+                width:290px
+                }
+                
+                .chat-message,.main-screen__navigation-items,.dropdown-toggle,.inventory-button {
+                font-size:12px
+                }
+                
+                .main-screen__item-players span,.iventory-info__message {
+                font-size:16px
+                }
+                
+                .chat-message-name,.inventory-item-title,.header__info-profile-name,.main-screen__navigation-price {
+                font-size:14px
+                }
+                }
+                
+                @media screen and (max-width:1092px) {
+                .menu-item p {
+                display:none
+                }
+                
+                
+                
+                .inventory h2 {
+                font-size:20px
+                }
+                
+                .iventory-info__message {
+                font-size:14px;
+                height:50px;
+                padding:2px 15px
+                }
+                
+                .inventory__content {
+                height:80%;
+                padding:24px 15px 1px;
+                width:380px
+                }
+                
+                .inventory-info__button {
+                justify-content:center;
+                padding:12px 29px;
+                width:50%
+                }
+                
+                .inventory-item {
+                margin:0 5px 5px 0;
+                width:31.7%
+                }
+                
+                .inventory-item:nth-of-type(odd) {
+                margin:0 5px 5px 0
+                }
+                
+                .main-screen__item-players {
+                flex-direction:column
+                }
+                
+                .main-screen__navigation-sort {
+                flex-wrap:wrap;
+                font-size:12px;
+                max-width:100px
+                }
+                
+                .main-screen__navigation-sort-btn:nth-of-type(1) {
+                margin-bottom:5px
+                }
+                
+                .main-screen__navigation-items {
+                flex-wrap:wrap;
+                max-width:100px
+                }
+                
+                .main-screen__items {
+                flex-wrap:wrap;
+                max-width:125px
+                }
+                
+                .main-screen__item {
+                flex-wrap:wrap
+                }
+                
+                .main-screen__item-player img {
+                height:35px
+                }
+                
+                .player-nmb img {
+                height:15px
+                }
+                
+                .main-screen__item-players span {
+                margin-bottom:5px;
+                margin-top:9px
+                }
+                
+                .main-screen__navigation-crate {
+                padding:7px;
+                text-align:center
+                }
+                
+                .main-screen__navigation {
+                padding:10px
+                }
+                
+                .main-screen__item-button {
+                padding:7px 5px
+                }
+                
+                .chat-online {
+                padding:4px 5px
+                }
+                
+                .chat-online img {
+                height:14px
+                }
+                
+                .closebtn,.closebtn-in {
+                background-color:#1AE9B7;
+                border-radius:5px;
+                color:#000;
+                cursor:pointer;
+                display:block;
+                height:20px;
+                margin-right:5px;
+                padding:0;
+                text-align:center;
+                width:20px
+                }
+                
+                .closebtn-in {
+                position:absolute;
+                right:13px;
+                top:15px
+                }
+                
+                .inventory__container {
+                position:relative
+                }
+                
+                
+                
+                
+                .menu-list {
+                max-width:580px
+                }
+                
+                .main-screen-content {
+                justify-content:center;
+                width:100%
+                }
+                
+                .chat-item {
+                flex-direction:row
+                }
+                
+                .chat-ava {
+                width:25px
+                }
+                
+                .main-screen-coinflip {
+                width:90%
+                }
+                
+                .inventory,.inventory-info {
+                max-width:none
+                }
+                
+                .inventory-info__buttons {
+                width:auto
+                }
+                
+                .inventory-item-wrapper,.inventory-item {
+                height:110px
+                }
+                
+                .inventory-button,.dropdown-toggle {
+                font-size:16px;
+                text-align:left;
+                width:auto
+                }
+                
+                .header .container {
+                padding:12px 35px
+                }
+                
+                .inventory {
+                max-width:100vw
+                }
+                
+                .modal-in {
+                align-items:center;
+                display:flex;
+                justify-content:center
+                }
+                
+                .modal,.modal-in {
+                -webkit-backdrop-filter:blur(10px);
+                backdrop-filter:blur(10px);
+                bottom:0;
+                left:0;
+                opacity:1;
+                position:fixed;
+                right:0;
+                top:0;
+                transition:.3s;
+                visibility:hidden;
+                width:100vw;
+                z-index:1050
+                }
+                
+                .modal-cont {
+                width:60%
+                }
+                
+                .main-screen-chat-container {
+                margin:100px auto;
+                width:45%
+                }
+                
+                .header__logo,.header-info-button,.header__info-profile-icon img,.header__info-profile-icon {
+                height:40px
+                }
+                
+                .header-info-button svg {
+                height:25px
+                }
+                
+                
+                .inventory-buttons {
+                height:auto;
+                justify-content:center;
+                width:100%
+                }
+                
+                .inventory-button {
+                margin-bottom:0;
+                margin-right:10px;
+                padding:6px 33px;
+                text-align:center
+                }
+                
+                .footer-list,.iventory-info__message svg {
+                margin:0
+                }
+                
+                
+                
+                .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+                font-size:14px
+                }
+                
+                .inventory-info-bot-message,.inventory-item-subtitle,.chat-online,.menu-item a,.main-screen__item-price,.inventory-item-title {
+                font-size:12px
+                }
+                
+                }
+                
+                @media screen and (max-width:877px) {
+                .modal-cont {
+                width:70%
+                }
+                
+                .modal-q-content p,.modal-q-content span,.modal-tos-content p,.modal-tos-content span {
+                font-size:13px
+                }
+                
+                .modal-q-content span,.modal-tos-content span {
+                margin-bottom:10px;
+                margin-top:15px
+                }
+                
+                .modal-q-content h2,.modal-tos-content h2 {
+                font-size:22px
+                }
+                
+                .inventory-info__button {
+                font-size:12px;
+                padding:12px 4px
+                }
+                
+                .deposit-btn svg,.withdraw-btn svg {
+                height:20px
+                }
+                
+                .inventory-item:nth-of-type(odd) {
+                margin-right:5px
+                }
+                
+                .withdraw-btn svg,.deposit-btn svg {
+                margin:0
+                }
+                
+                .inventory__items {
+                justify-content:center
+                }
+                
+                .menu {
+                height:auto
+                }
+                
+                .header .container {
+                padding:12px 10px
+                }
+                
+                .menu-item {
+                height:30px;
+                padding:8px
+                }
+                
+                .menu-item svg {
+                height:20px;
+                margin-right:0;
+                width:25px
+                }
+                
+                .cn-fl svg {
+                height:40px;
+                width:30px
+                }
+                
+                .modal-i-content p,.modal-f-content h3,.modal-s-content h2 {
+                font-size:14px
+                }
+                
+                .modal-i-content h2,.modal-f-content h2 {
+                font-size:12px
+                }
+                
+                .modal-if-btn {
+                padding:8px 40px
+                }
+                
+                .modal-t-logo,.modal-f-logo,.modal-s-logo {
+                height:100px;
+                margin-bottom:25px;
+                margin-top:25px
+                }
+                
+                .modal-f-content h4 {
+                font-size:14px;
+                line-height:40px
+                }
+                
+                .modal-f-form input {
+                padding:13px
+                }
+                
+                .modal-f-btn,.modal-s-stat,.modal-s-btn {
+                font-size:14px;
+                padding:10px
+                }
+                
+                .inventory-info__buttons,.withdraw-blur {
+                height:35px
+                }
+                
+                .iventory-info__message,.iventory-info__message svg {
+                height:40px
+                }
+                }
+                
+                @media screen and (max-width:720px) {
+                .main-screen__item-players {
+                flex-direction:row;
+                justify-content:center;
+                width:100%
+                }
+                
+                .main-screen__items {
+                flex-wrap:nowrap;
+                max-width:none
+                }
+                
+                .main-screen-chat-container {
+                width:70%
+                }
+                
+                main>.container {
+                padding:0
+                }
+                
+                
+                
+                .cn-fl svg {
+                height:35px;
+                margin-bottom:-6px;
+                width:35px
+                }
+                
+                .menu-item {
+                height:auto;
+                margin-right:7px;
+                padding:7px 12px
+                }
+                
+                .openbtn-in p,.openbtn p {
+                display:none
+                }
+                
+                .openbtn-in,.openbtn {
+                height:auto;
+                padding:5.5px 12px;
+                width:auto
+                }
+                
+                .modal-cm-game-player-ava:nth-of-type(2) {
+                margin-left:3px
+                }
+                
+                .modal-cm-game-player-ava:nth-of-type(1) {
+                margin-right:3px
+                }
+                
+                .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+                height:60px
+                }
+                
+                .modal-cm-info-item img {
+                height:30px
+                }
+                
+                .modal-cont {
+                width:90%
+                }
+                
+                .modal-cm-info-item,.modal-cm-info-bet {
+                font-size:13px
+                }
+                
+                .dropdown-path {
+                width:7px
+                }
+                
+                .inventory-info__buttons {
+                height:auto;
+                margin-bottom:0;
+                width:100%
+                }
+                
+                .inventory-info__button {
+                justify-content:center;
+                margin-bottom:5px
+                }
+                
+                .iventory-info__message {
+                height:auto;
+                padding:10px 7px
+                }
+                
+                .main-screen-content {
+                justify-content:center;
+                width:100%
+                }
+                
+                .main-screen__item-players,.main-screen__item-res,.main-screen__items,.main-screen__item-price {
+                margin-bottom:5px
+                }
+                
+                .main-screen__navigation {
+                flex-wrap:wrap;
+                justify-content:space-between
+                }
+                
+                .main-screen__navigation-price,.main-screen__navigation-icons,.main-screen__navigation-sort,.main-screen__navigation-items {
+                margin-right:5px
+                }
+                
+                .main-screen__navigation-items {
+                max-width:65px
+                }
+                
+                .inventory h2 {
+                font-size:20px
+                }
+                
+                .menu-list {
+                justify-content:center
+                }
+                
+                .footer-rights,.footer-list a {
+                font-size:8px
+                }
+                
+                .menu-item a {
+                font-size:10px;
+                font-weight:400
+                }
+                
+                .openbtn-in {
+                margin-right:7px
+                }
+                
+                .main-screen__navigation-crate,.main-screen__item-buttons {
+                width:100%
+                }
+                
+                .inventory-button,.dropdown-toggle,.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li {
+                font-size:14px
+                }
+                
+                .main-screen__item,.main-screen__navigation-icons {
+                flex-direction:column
+                }
+                }
+                @media screen and (max-width:413px) {
+                .modal-cm-info-item,.modal-cm-info-bet {
+                font-size:10px
+                }
+                
+                .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+                height:40px
+                }
+                .openbtn-in,.openbtn {
+                padding:5px 7px
+                }
+                .inventory__content {
+                height:80%;
+                width:100%
+                }
+                
+                .inventory-info__button {
+                padding:8px 4px
+                }
+                
+                .menu-list {
+                flex-wrap:wrap
+                }
+                
+                .footer-list {
+                margin-left:30px
+                }
+                
+                .inventory__container {
+                width:90%
+                }
+                }
+                @media screen and (min-width:2200px) {
+                    .market-item_img {
+                    height:120px;
+                    width:180px
+                    }
+                    }
+                    
+                    @media screen and (min-width:1710px) {
+                    .market-item_img {
+                    height:120px;
+                    width:170px
+                    }
+                    
+                    .main-screen-content-market-items {
+                    height:700px
+                    }
+                    }
+                    
+                    @media screen and (max-width:1440px) {
+                    
+                    }
+                    
+                    @media screen and (max-width:1320px) {
+                    .market-menu-content a {
+                    font-size:14px
+                    }
+                    
+                    .main-screen-content-market-items {
+                    justify-content:center
+                    }
+                    
+                    .market-item_img {
+                    height:60px;
+                    width:110px
+                    }
+                    
+                    .main-screen-content-market {
+                    width:100%
+                    }
+                    }
+                    
+                    @media screen and (max-width:877px) {
+                    .market-item-btn svg {
+                    height:25px;
+                    width:25px
+                    }
+                    
+                    .market-item h2 {
+                    font-size:14px
+                    }
+                    }
+                    
+                    @media screen and (max-width:720px) {
+                    .market-sort svg {
+                    height:10px
+                    }
+                    
+                    .market-menu-content a {
+                    font-size:10px;
+                    margin-right:5px
+                    }
+                    }
+                    
+                    @media screen and (max-width:413px) {
+                    .market-item_img {
+                    height:180px;
+                    width:200px
+                    }
+                    
+                    .market-menu-content-two {
+                    display:none
+                    }
+                    
+                    .main-screen-content-market-items {
+                    justify-content:center
+                    }
+                    }
+                    @media screen and (min-width:2600px) {
+
+
+                        .inventory__items {
+                        max-height:65vh
+                        }
+                        
+                        .main-screen-chat {
+                        width:24%
+                        }
+                        }@media screen and (max-width:1600px) {
+                        .inventory__content {
+                        height:30%;
+                        width:287px
+                        }
+                        
+                        .dropdown-toggle,.inventory-button {
+                        font-size:14px
+                        }
+                        
+                        .inventory-item-wrapper,.inventory-item {
+                        height:160px
+                        }
+                        
+                        .inventory,.inventory-info {
+                        margin-right:10px;
+                        max-width:300px
+                        }
+                        
+                        .inventory-info__button {
+                        font-size:16px;
+                        padding:12px 20px
+                        }
+                        
+                        .deposit-btn svg,.withdraw-btn svg {
+                        height:27px
+                        }
+                        
+                        .iventory-info__message {
+                        font-size:18px;
+                        width:100%
+                        }
+                        
+                        .inventory__items {
+                        margin-top:10px;
+                        max-height:47vh
+                        }
+                        }
+                        
+                        @media screen and (max-width:1440px) {
+                        
+                        
+                        .market-item_img {
+                        height:80px;
+                        width:130px
+                        }
+                        
+                        }
+                        @media screen and (max-width:1320px) {
+                            .main-screen-content-items {
+                            width:67%
+                            }
+                            
+                            .profile-bets-item__items img {
+                            height:20px
+                            }
+                            
+                            .profile-menu-content {
+                            width:170px
+                            }
+                            
+                            .main-screen-content-market-items {
+                            justify-content:center
+                            }
+                            
+                            .market-item_img {
+                            height:60px;
+                            width:110px
+                            }
+                            
+                            .main-screen-content-market {
+                            width:100%
+                            }
+                            
+                            .chat-ava {
+                            height:25px
+                            }
+                            
+                            .chat-time {
+                            font-size:8px
+                            }
+                            
+                            .chat-rules {
+                            padding:5px
+                            }
+                            
+                            .chat-items {
+                            max-height:46vh
+                            }
+                            
+                            .footer-rights,.footer-list a {
+                            font-size:10px
+                            }
+                            
+                            .inventory-item {
+                            width:46%
+                            }
+                            
+                            .inventory__content {
+                            padding:24px 6px 1px 13px;
+                            width:245px
+                            }
+                            
+                            .dropdown-path {
+                            width:10px
+                            }
+                            
+                            .iventory-info__message {
+                            font-size:16px
+                            }
+                            
+                            .inventory-info__button {
+                            padding:12px 11px
+                            }
+                            
+                            .footer-list {
+                            margin-left:302px
+                            }
+                            
+                            .header__info {
+                            width:290px
+                            }
+                            
+                            .profile-bets-item,.chat-message,.dropdown-toggle,.inventory-button {
+                            font-size:12px
+                            }
+                            
+                            .market-menu-content a,.chat-message-name,.inventory-item-title,.header__info-profile-name {
+                            font-size:14px
+                            }
+                            }
+                            
+                            @media screen and (max-width:1092px) {
+                            .profile-menu-lo {
+                            margin-bottom:20px
+                            }
+                            
+                            .main-screen-content-items {
+                            flex-direction:column;
+                            width:95%
+                            }
+                            
+                            .modal-q-content,.modal-tos-content {
+                            padding-right:20px
+                            }
+                            
+                            .menu-item p {
+                            display:none
+                            }
+                            
+                            
+                            
+                            .inventory h2 {
+                            font-size:20px
+                            }
+                            
+                            .iventory-info__message {
+                            font-size:14px;
+                            height:50px;
+                            padding:2px 15px
+                            }
+                            
+                            .inventory__content {
+                            height:45%;
+                            padding:24px 15px 1px;
+                            width:380px
+                            }
+                            
+                            .inventory-info__button {
+                            justify-content:center;
+                            padding:12px 29px;
+                            width:50%
+                            }
+                            
+                            .inventory-item {
+                            margin:0 5px 5px 0;
+                            width:31.7%
+                            }
+                            
+                            .inventory-item:nth-of-type(odd) {
+                            margin:0 5px 5px 0
+                            }
+                            
+                            .chat-online {
+                            padding:4px 5px
+                            }
+                            
+                            .chat-online img {
+                            height:14px
+                            }
+                            
+                            .closebtn,.closebtn-in {
+                            background-color:#1AE9B7;
+                            border-radius:5px;
+                            color:#000;
+                            cursor:pointer;
+                            display:block;
+                            height:20px;
+                            margin-right:5px;
+                            padding:2px;
+                            text-align:center;
+                            width:20px
+                            }
+                            
+                            .closebtn-in {
+                            position:absolute;
+                            right:13px;
+                            top:15px
+                            }
+                            
+                            .inventory__container {
+                            position:relative
+                            }
+                            
+                            
+                            .openbtn-in {
+                            margin-right:15px;
+                            }
+                            
+                            .menu-list {
+                            max-width:580px
+                            }
+                            
+                            .chat-item {
+                            flex-direction:row
+                            }
+                            
+                            .chat-ava {
+                            width:25px
+                            }
+                            
+                            .inventory,.inventory-info {
+                            max-width:none
+                            }
+                            
+                            .inventory-info__buttons {
+                            width:auto
+                            }
+                            
+                            .inventory-item-wrapper,.inventory-item {
+                            height:110px
+                            }
+                            
+                            .inventory-button,.dropdown-toggle {
+                            font-size:16px;
+                            text-align:left;
+                            width:auto
+                            }
+                            
+                            .header .container {
+                            padding:12px 35px
+                            }
+                            
+                            .inventory {
+                            max-width:100vw
+                            }
+                            
+                            .modal-in {
+                            align-items:center;
+                            display:flex;
+                            justify-content:center
+                            }
+                            
+                            .modal,.modal-in {
+                            -webkit-backdrop-filter:blur(10px);
+                            backdrop-filter:blur(10px);
+                            bottom:0;
+                            left:0;
+                            opacity:1;
+                            position:fixed;
+                            right:0;
+                            top:0;
+                            transition:.3s;
+                            visibility:hidden;
+                            width:100vw;
+                            z-index:1050
+                            }
+                            
+                            .modal-cont {
+                            width:60%
+                            }
+                            
+                            .main-screen-chat-container {
+                            margin:100px auto;
+                            width:45%
+                            }
+                            
+                            .header__logo,.header-info-button,.header__info-profile-icon img,.header__info-profile-icon {
+                            height:40px
+                            }
+                            
+                            .header-info-button svg {
+                            height:25px
+                            }
+                            
+                            
+                            .inventory-buttons {
+                            height:auto;
+                            justify-content:center;
+                            width:100%
+                            }
+                            
+                            .inventory-button {
+                            margin-bottom:0;
+                            margin-right:10px;
+                            padding:6px 33px;
+                            text-align:center
+                            }
+                            
+                            .profile-menu-content,.main-screen-content {
+                            width:100%
+                            }
+                            
+                            .footer-list,.iventory-info__message svg {
+                            margin:0
+                            }
+                            
+                            
+                            
+                            .inventory-info-bot-btns a,.inventory-info-bot-btns p,.chat-title {
+                            font-size:14px
+                            }
+                            
+                            
+                            
+                            /* .chat-rules img,.openbtn img,.openbtn-in img {
+                            height:20px
+                            } */
+                            }
+                            @media screen and (max-width:720px) {
+                            .profile-bets-content {
+                            height:41vh
+                            }
+                            
+                            .main-screen-content {
+                            justify-content:center;
+                            padding:0 10px;
+                            padding-top:0;
+                            width:90%;
+                            width:100%
+                            }
+                            
+                            .profile-bets-it {
+                            margin-bottom:5px
+                            }
+                            
+                            .profile-bets-item {
+                            flex-direction:column
+                            }
+                            
+                            .profile-bets-item__name svg {
+                            height:35px;
+                            width:35px
+                            }
+                            
+                            .profile-menu-content li {
+                            font-size:16px
+                            }
+                            
+                            .market-sort svg {
+                            height:10px
+                            }
+                            
+                            .market-menu-content a {
+                            font-size:10px;
+                            margin-right:5px
+                            }
+                            
+                            .main-screen-chat-container {
+                            width:70%
+                            }
+                            
+                            main>.container {
+                            padding:0
+                            }
+                            
+                            
+                            
+                            .cn-fl svg {
+                            height:35px;
+                            margin-bottom:-6px;
+                            width:35px
+                            }
+                            
+                            .menu-item {
+                            height:auto;
+                            margin-right:7px;
+                            padding:7px 12px
+                            }
+                            
+                            .openbtn-in p,.openbtn p {
+                            display:none
+                            }
+                            
+                            .openbtn-in,.openbtn {
+                            height:auto;
+                            padding:5.5px 12px;
+                            width:auto
+                            }
+                            
+                            .modal-cm-game-player-ava:nth-of-type(2) {
+                            margin-left:3px
+                            }
+                            
+                            .modal-cm-game-player-ava:nth-of-type(1) {
+                            margin-right:3px
+                            }
+                            
+                            .modal-cm-game-res,.modal-cm-game-res img,.modal-cm-game-player-ava {
+                            height:60px
+                            }
+                            
+                            .modal-cm-info-item img {
+                            height:30px
+                            }
+                            
+                            .modal-cont {
+                            width:90%
+                            }
+                            
+                            .modal-cm-info-item,.modal-cm-info-bet {
+                            font-size:13px
+                            }
+                            
+                            .dropdown-path {
+                            width:7px
+                            }
+                            
+                            .inventory-info__buttons {
+                            height:auto;
+                            margin-bottom:0;
+                            width:100%
+                            }
+                            
+                            .inventory-info__button {
+                            justify-content:center;
+                            margin-bottom:5px
+                            }
+                            
+                            .iventory-info__message {
+                            height:auto;
+                            padding:10px 7px
+                            }
+                            
+                            .inventory h2 {
+                            font-size:20px
+                            }
+                            
+                            .menu-list {
+                            justify-content:center
+                            }
+                            
+                            .footer-rights,.footer-list a {
+                            font-size:8px
+                            }
+                            
+                            .menu-item a {
+                            font-size:10px;
+                            font-weight:400
+                            }
+                            
+                            .openbtn-in {
+                            margin-right:7px
+                            }
+                            
+                            .inventory-button,.dropdown-toggle,.modal-lb-table h3,.modal-lb-table__profit p,.modal-lb-table__bets p,.modal-lb-table__wagered p,.modal-lb-table__place ol > li {
+                            font-size:14px
+                            }
+                            }
+                            
+                            @media screen and (max-width:470px) {
+                            .market-item_img {
+                            width:93px
+                            }
+                            }                        
